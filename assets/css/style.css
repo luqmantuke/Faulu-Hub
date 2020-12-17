@@ -2920,7 +2920,7 @@ footer {
           color: #ffffff;
           border-color: #092ace; }
 .header_3 .intro_wrapper {
-  background: url("../images/banner/banner_3.png") no-repeat center center;
+  background: url("../images/banner/banner_3.jpg") no-repeat center center;
   min-height: 990px;
   background-size: cover;
   position: relative;
@@ -3714,7 +3714,7 @@ footer {
     width: 100%; }
 
 .header_inner .intro_wrapper {
-  background: url("../images/banner/banner_3.png") no-repeat center center;
+  background: url("../images/banner/banner_3.jpg") no-repeat center center;
   min-height: 300px;
   background-size: cover;
   position: relative;
