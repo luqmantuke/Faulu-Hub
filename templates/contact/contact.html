@@ -1,0 +1,93 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load widget_tweaks %}
+{% block title %}Contact us{% endblock title %}
+{% block body %}
+    <div class="intro_wrapper">
+        <div class="container">  
+            <div class="row">        
+                 <div class="col-sm-12 col-md-8 col-lg-8">
+                    <div class="intro_text">
+                        <h1 style="color:black">Contact Page</h1>
+                     
+                    </div>
+                </div>              
+            </div>
+        </div> 
+    </div> 
+</header> <!-- End Header -->
+
+
+
+
+
+
+<section class="contact_info_wrapper">
+     <div class="container">  
+        <div class="row">  
+            <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                <div class="contact_info">
+                    <h3 class="title">Contact Details</h3>
+                    <p>For any question, suggestions feedback or anything, kindly contact us through the following or directly leave a message. Thank you.</p>
+                    <div class="event_location_info">                  
+                        <ul class="list-unstyled">
+                            <li>
+                                <h4 class="info_title">Address : </h4>
+                                <ul class="list-unstyled">
+                                    <li>Kaloleni </li>
+                                    <li>Arusha Tanzania</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h4 class="info_title">Phone Numbers :</h4>
+                                <ul class="list-unstyled">
+                                    <li>+255 758 585 847</li>
+                                    <li>+255 748 420 717</li>
+                                </ul>
+                            </li>
+                            <li>
+                                <h4 class="info_title">Our E-mails :</h4>
+                                <ul class="list-unstyled">
+                                    <li>admin@fauluhub.com</li>                                    
+                                </ul>
+                            </li>                      
+                        </ul>
+                        <img src="{% static 'images/banner/map_shape.png' %}" alt="" class="contact__info_shpae">
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+                <div class="contact_form_wrapper">
+                    <h3 class="title">Get In Touch</h3>
+                    <div class="leave_comment">
+                        <div class="contact_form">
+                            <form method="post">
+                            {% csrf_token %}
+                                <div class="row">
+                                    <div class="col-12 col-sm-12 col-md-6 form-group">
+                                       {% render_field form.name class="form-control" placeholder="Full name"%}
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-6 form-group">
+                                        {% render_field form.email class="form-control" placeholder="Email"%}
+                                    </div>                                    
+                                    <div class="col-12 col-sm-12 col-md-12 form-group">
+                                        {% render_field form.subject class="form-control" placeholder="Subject"%}
+                                    </div>
+                                    <div class="col-12 col-sm-12 col-md-12 form-group">
+                                        {% render_field form.message rows="10" placeholder="Your message" class+="form-control" %}
+                                    </div>
+                                     <div class="col-12 col-sm-12 col-md-12 submit-btn">
+                                        <button type="submit" class="text-center">Send Massage</button>
+                                    </div>
+                                </div>
+                            </form>   
+                        </div>
+                    </div> 
+                </div>
+           </div>
+        </div>
+    </div>
+</section> <!-- Contact Info Wrappper-->
+
+
+{% endblock body %}

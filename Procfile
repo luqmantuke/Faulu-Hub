@@ -1,0 +1,1 @@
+web: gunicorn FAULU_HUB.wsgi --log-file -

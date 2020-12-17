@@ -1,0 +1,36 @@
+
+{% extends "base.html" %}
+{% load static %}
+{% load bootstrap4 %}
+{% block title %}
+    {{ object.title }}
+{% endblock %}
+
+{% block body %}
+
+
+    {% with subject=course.subject %}
+        <h1>
+            {{ object.title }}
+        </h1>
+
+
+
+
+        <div class="jumbotron card card-image" style="background-image: url({% static 'images/sceen-0.jpg' %});">
+  <div class="text-white text-center py-5 px-4">
+    <div>
+      <h2 class="card-title h1-responsive pt-3 mb-5 font-bold"><strong>Course Overview</strong></h2>
+      <h5 class="mx-5 mb-5"><a href="{% url "course_list_subject" subject.slug %}">{{ subject.title }}:</a>
+      {{ course.modules.count }} modules.
+      Instructor: <strong>{{ course.owner }}</strong>
+      </h5>
+      {{ object.overview|linebreaks }}
+      <a href="{% url 'student_course_detail'  subject.pk %} " subject.slug><button type="button" class="btn btn-success">Start Learning</button></a>
+      
+    </div>
+  </div>
+</div>
+    {% endwith %}
+
+{% endblock body %}

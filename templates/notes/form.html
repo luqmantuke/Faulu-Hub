@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<ul>
+    {% for object in form %}
+      <li>
+        <a href="{{ object.get_absolute_url }}">{{ object.name }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+
+{% endblock body %}

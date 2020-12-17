@@ -1,0 +1,688 @@
+{% load static %}
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta name="author" content="Ecology Theme">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faulu Hub</title>
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <!-- Goole Font -->
+    <link href="https://fonts.googleapis.com/css?family=Rubik:400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="{% static 'css/assets/bootstrap.min.css' %}">
+    <!-- Font awsome CSS -->
+    <link rel="stylesheet" href="{% static 'css/assets/font-awesome.min.css' %}">    
+    <link rel="stylesheet" href="{% static 'css/assets/flaticon.css' %}">
+    <link rel="stylesheet" href="{% static 'css/assets/magnific-popup.css' %}">    
+    <!-- owl carousel -->
+    <link rel="stylesheet" href="{% static 'css/assets/owl.carousel.css' %}">
+    <link rel="stylesheet" href="{% static 'css/assets/owl.theme.css' %}">     
+    <link rel="stylesheet" href="{% static 'css/assets/animate.css' %}"> 
+    <!-- Slick Carousel -->
+    <link rel="stylesheet" href="{% static 'css/assets/slick.css' %}">  
+
+    <!-- Revolution Slider -->
+    <link rel="stylesheet" href="{% static 'css/assets/revolution/layers.css' %}">
+    <link rel="stylesheet" href="{% static 'css/assets/revolution/navigation.css' %}">
+    <link rel="stylesheet" href="{% static 'css/assets/revolution/settings.css' %}">    
+    <!-- Mean Menu-->
+    <link rel="stylesheet" href="{% static 'css/assets/meanmenu.css' %}">
+    <!-- main style-->
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/responsive.css' %}">
+    <link rel="stylesheet" href="{% static 'css/demo.css' %}">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!—- ShareThis BEGIN -—>
+<script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=5fd7d0285be97700184ab697&product=sticky-share-buttons" async="async"></script>
+<!—- ShareThis END -—>
+</head>
+<body>
+{% if messages %}<br>
+<div style="font-size:13px;" class="col-md-12 text-center mt-0 pt-0">
+  {% for message in messages %}
+    <div class="alert alert-{{ message.tags }}">{{ message | safe }}</div>   
+  {% endfor %}
+</div>
+{% endif %}
+
+<header class="header_3">
+<!-- Preloader -->
+
+	<div class="header_top">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-sm-12 col-lg-12">
+					<div class="info_wrapper">
+						<div class="contact_info">                   
+							<ul class="list-unstyled">
+                                <li><i class="flaticon-phone-receiver"></i>+255 758 585 847</li>
+        						<li><i class="flaticon-mail-black-envelope-symbol"></i>admin@fauluhub.com</li>
+        					</ul>                
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="edu_nav">
+        <div class="container">
+            <nav class="navbar navbar-expand-md navbar-light bg-faded">
+                <a class="navbar-brand" href="index-2.html"><img src="{% static 'images/logo.png' %}" alt="logo"></a>
+                <div class="collapse navbar-collapse main-menu" id="navbarSupportedContent">
+                    <ul class="navbar-nav nav lavalamp ml-auto menu">
+                        <li class="nav-item"><a href="{% url 'home' %}" class="nav-link active">Home</a>
+                         
+                        </li>
+                        <li class="nav-item"><a href="{% url 'construction' %}" class="nav-link">Videos</a>
+                           
+                        </li>
+                        <li class="nav-item"><a href="{% url 'exam_list' %}" class="nav-link">Exams</a>
+                           
+                        </li>
+                        <li class="nav-item"><a href="{% url 'content_list' %}" class="nav-link">Notes</a>
+                           
+                        </li>
+                        <li class="nav-item"><a href="{% url 'forum:index' %}" class="nav-link">Discussion</a>
+                           
+                        </li>
+                        <li class="nav-item"><a href="{% url 'page_list' %}" class="nav-link">Blog</a>
+                    
+                        </li>
+                                                     
+                                
+                        <li class="nav-item"><a href="{% url 'contact' %}" class="nav-link">Contact</a></li>
+                    </ul>
+                </div>
+                        
+            </nav><!-- END NAVBAR -->
+        </div> 
+    </div>
+
+	<div class="intro_wrapper">
+		<div class="container">  
+			<div class="row">        
+				 <div class="col-sm-12 col-md-8 col-lg-8">
+					<div class="intro_text">
+						<h1 style="color:black">Take The Tanzania's Best Education Online Free.</h1>
+						<p style="color:green">We provide Quality Notes, Variety Exams, Great Articles, Videos, Discussions. Free no account needed.</p>
+					
+					</div>
+				</div>				
+				
+
+			</div>
+		</div> 
+	</div>  
+</header> <!-- End header -->
+
+
+
+
+
+<section class="courses_features">
+	<div class="container">
+		<div class="row d-flex justify-content-center">
+			<div class="col-12 col-sm-12 col-md-9 col-lg-9">
+				<div class="sub_title">
+					<h2>We Have Tones of Course <br>for Your!!</h2>
+				</div><!-- ends: .section-header -->
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12 col-sm-6 col-md-4 col-lg-4 single_features_wrapper">
+				<div class="feature_single feature_single_1">
+					<img src="{% static 'images/features/finance.jpg' %}" alt="">
+					<div class="feature_content">
+						<a href="#" title=""><h3>Business</h3></a>
+						<p>Over 120 Courses</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-12 col-sm-6 col-md-4 col-lg-4 single_features_wrapper">
+				<div class="feature_single feature_single_2">
+					<img src="{% static 'images/features/science.jpg' %}" alt="">
+					<div class="feature_content">
+						<a href="#" title=""><h3>Science</h3></a>
+						<p>Over 200 Courses</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-12 col-sm-6 col-md-4 col-lg-4 single_features_wrapper">
+				<div class="feature_single feature_single_3">
+					<img src="{% static 'images/features/language.jpg' %}" alt="">
+					<div class="feature_content">
+						<a href="#" title=""><h3>Language</h3></a>
+						<p>Over 20 Courses</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-12 col-sm-6 col-md-4 col-lg-4 single_features_wrapper">
+				<div class="feature_single feature_single_4">
+					<img src="{% static 'images/features/comp.jpg' %}" alt="">
+					<div class="feature_content">
+						<a href="#" title=""><h3>Computer</h3></a>
+						<p>Over 50 Courses</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-12 col-sm-6 col-md-4 col-lg-4 single_features_wrapper">
+				<div class="feature_single feature_single_5">
+					<img src="{% static 'images/features/music.jpg' %}" alt="">
+					<div class="feature_content">
+						<a href="#" title=""><h3>Music</h3></a>
+						<p>Over 10 Courses</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-sm-6 col-md-4 col-lg-4 single_features_wrapper">
+				<div class="feature_single feature_single_6">
+					<img src="{% static 'images/features/religion.jpg' %}" alt="">
+					<div class="feature_content">
+						<a href="#" title=""><h3>Religion</h3></a>
+						<p>Over 30 Courses</p>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</section>  <!-- End Courses Features -->
+
+
+
+<section class="about_us_thinking">
+	<div class="container-fluid">            
+		<div class="row">
+			<div class="col-12 col-sm-12 col-md-6 col-lg-6 p-0">
+				<div class="banner_learn">
+					<img src="{% static 'images/background1.jpg' %}" alt="" class="img-fluid">
+				 </div>
+			</div>
+			<div class="col-12 col-sm-12 col-md-12 col-lg-6">
+				<div class="title">
+					<h2>Doing The Right Thing At The Right Time.</h2>
+					<div class="step_services">
+						<h3><span>01.</span>Exprerience</h3>
+						<p>Get experience through Discussions in the <a href="{% url 'forum:index' %}" target="_blank">Discussion</a> page.</p>  
+					</div>                    
+					<div class="step_services">
+						<h3><span>02.</span>Education</h3>
+						<p>Get the best and quality notes prepared for you in the <a href="{% url 'content_list' %}" target="_blank">Notes</a> page.</p>.  
+						<p>Get NECTA and NON-NECTA past papers prepared for you in the <a href="{% url 'exam_list' %}" target="_blank">Exams</a> page.</p>.  
+
+					</div>                   
+					 <div class="step_services">
+						<h3><span>03.</span>Video Content</h3>
+						<p>We provide video contents that can help students grasp the concepts well. Study now in <a href="{% url 'construction' %}" target="_blank">Videos</a> page..</p>  
+					</div>
+				 </div>
+			</div>
+		</div>
+	</div>    
+</section><!-- End About Us Your Thingking -->
+
+
+
+<section class="popular_courses">
+	<div class="container"> 
+		<div class="row">
+			<div class="col-12 col-sm-12 col-md-12 col-lg-12">
+				<div class="sub_title">
+					<h2>Our Recent Blog Articles</h2>
+					<p>We do write articles every week to make student gain skills and knowledge that can help them in the careers. Subscribe to our newsletter now so as not to miss the arcles.</p>  
+				</div><!-- ends: .section-header -->
+			</div>
+        {% for article  in post  %}
+			<div class="col-12 col-sm-6 col-md-6 col-lg-4">
+                <div class="single-courses">
+                    <div class="courses_banner_wrapper">
+                        <div class="courses_banner"><a href="{% url 'post_detail' article.slug %}"><img src="{{ article.image.url }}" alt="" class="img-fluid"></a></div>
+                    
+                    </div>
+                    <div class="courses_info_wrapper">
+                        <div class="courses_title">
+                            <h3><a href="{% url 'post_detail' article.slug %}">{{ article.name }}</a></h3>
+                            <div class="teachers_name">Teacher - {{ article.author }}</div>
+                        </div>
+                        <div class="courses_info">
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-calendar-alt"></i>{{ article.created }}</li>
+                            </ul>
+                            <a href="{% url 'post_detail' article.slug %}" class="cart_btn">Read</a>
+                        </div>
+                    </div>
+                </div><!-- Ends: .single courses -->
+            </div><!-- Ends: . -->
+        {% endfor %}
+		</div>
+
+	</div>
+</section><!-- Ends: Pupular Courses -->  
+
+
+
+<section class="video_online">
+	<div class="container">
+		<div class="row">
+			<div class="col-12 col-sm-12 col-md-12 col-lg-12">
+				<div class="sub_title">
+					<h2>Learn through Videos</h2>
+				</div>
+			</div>
+			<div class="col-12 col-sm-12 col-md-12 col-lg-12">
+				<div class="video_wrapper">
+				   <div class="video_banner">
+					   <img src="{% static 'images/banner/video-mockup.jpg' %}" alt="">
+						<div class="video_view_btn">
+							<a href="https://www.youtube.com/watch?v=zoQ8C0r6Djw" class="video-iframe"><i class="flaticon-play-button"></i></a>
+						</div>
+				   </div>
+				   <div class="shape_video">
+				   		<img src="{% static 'images/shapes/video_1.png' %}" alt="" class="shape_1"> 
+				   		<img src="{% static 'images/shapes/video_2.png' %}" alt="" class="shape_2">        
+				   </div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-6 col-sm-6 col-md-3 col-lg-3 counter_single_wrapper">
+				<div class="section count_single">
+					<div class="project-count counter">120545</div>
+					<span>Active students</span>
+				</div>
+			</div>
+
+			<div class="col-6 col-sm-6 col-md-3 col-lg-3 counter_single_wrapper">
+				<div class="section count_single">
+					<div class="project-count counter">230</div>
+					<span>Online Syllabus Courses</span>
+				</div>  
+			</div>  
+
+			<div class="col-6 col-sm-6 col-md-3 col-lg-3 counter_single_wrapper">
+				<div class="section count_single">
+					<div class="project-count"><span class="counter">100</span><span class="count_icon">%</span></div>
+					<span>Satisfaction</span>
+				</div>
+			</div>
+
+			<div class="col-6 col-sm-6 col-md-3 col-lg-3 counter_single_wrapper">
+				<div class="section count_single">
+					<div class="project-count counter">700</div>
+					<span>Fraduates</span>
+				</div>  
+			</div>  
+		</div>
+	</div>
+	<div class="bg_shapes">
+	</div>
+</section><!-- End ONline Video -->
+
+
+
+<section class="testimonial_3">
+	<div class="container">
+		<div class="row">
+			<div class="col-12 col-sm-12 col-md-12 col-lg-12">
+				<div class="sub_title">
+					<h2>Student Say About Us</h2>
+					<p>We have been helping students all over Tanzania to  succeed in their exams(Necta and Non-Necta). They then send us thankful feedback here are some of them.</p>  
+				</div><!-- ends: .section-header -->
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12 col-sm-6 col-md-6 col-lg-4">
+				<div class="testimonial_single">
+					<div class="reviewer_info">
+						<div class="pro_pic_teacher">
+							<img src="{% static 'images/team/innocent.jpg' %}" alt="2" class="img-fluid">
+						</div>
+						<div class="name_position">
+							<span class="name">Innocent Joseph</span>
+							<span>O-LEVEL student</span>
+						</div>
+					</div>
+					<p>I was in panic about my career in doing CSEE exams because of COVID-19. I then visited FAULU HUB, did some discussion, studied notes, solved exams, read the articles and subscribed them through email. The next is History.</p>
+				</div>                                       
+			</div>
+			<div class="col-12 col-sm-6 col-md-6 col-lg-4">
+				<div class="testimonial_single">
+					<div class="reviewer_info">
+						<div class="pro_pic_teacher">
+							<img src="{% static 'images/team/nawal.jpg' %}" alt="2" class="img-fluid">
+						</div>
+						<div class="name_position">
+							<span class="name">Nawal Naseer</span>
+							<span>A-LEVEL student</span>
+						</div>
+					</div>
+					<p>I really had a tough time looking for A-LEVEL studying resources more especially science ones. My friend Privatus then told me about FAULU HUB, i visited and took advantage of it and finally i'm doing well in my studies.  Much Thank you!.</p>
+				</div>                                       
+			</div>
+          <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+				<div class="testimonial_single">
+					<div class="reviewer_info">
+						<div class="pro_pic_teacher">
+							<img src="{% static 'images/team/derick.jpeg' %}" alt="2" class="img-fluid">
+						</div>
+						<div class="name_position">
+							<span class="name">Derick Paul</span>
+							<span>O-LEVEL student</span>
+						</div>
+					</div>
+					<p>I wanna thank  FAULU HUB as I was strugglig understanding Physics. I then did alot of discussions, solved a lot of exams(NECTA & NON-NECTA), read articles and I scored B in my mock exam 2020. I hope doing well in my CSEE 2020.</p>
+				</div>                                        
+			</div>
+            <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+				<div class="testimonial_single">
+					<div class="reviewer_info">
+						<div class="pro_pic_teacher">
+							<img src="{% static 'images/team/rasul.jpg' %}" alt="2" class="img-fluid">
+						</div>
+						<div class="name_position">
+							<span class="name">Rasul Salum</span>
+							<span>A-LEVEL student</span>
+						</div>
+					</div>
+					<p>I am a PCM student and as seen getting PCM materials is a challenge. By using my I-PAD PRO, I was able to study the resources available in FAULU HUB such as notes, exams, discussion and reading articles. I hope doing well in my ACSEE exams.</p>
+				</div>                                       
+			</div>
+            <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+				<div class="testimonial_single">
+					<div class="reviewer_info">
+						<div class="pro_pic_teacher">
+							<img src="{% static 'images/team/anna.jpg' %}" alt="2" class="img-fluid">
+						</div>
+						<div class="name_position">
+							<span class="name">Anna Alex</span>
+							<span>O-LEVEL student</span>
+						</div>
+					</div>
+					<p>My name is Anna Alex and I have been using this platform to perform discussions during the holidays. I used to download exams and posting in our discussion page and for reference we use the notes page and that is helping us being productive.</p>
+				</div>                                       
+			</div>
+
+			<div class="col-12 col-sm-6 col-md-6 col-lg-4">
+				<div class="testimonial_single">
+					<div class="reviewer_info">
+						<div class="pro_pic_teacher">
+							<img src="{% static 'images/team/ramsy.jpg' %}" alt="2" class="img-fluid">
+						</div>
+						<div class="name_position">
+							<span class="name">Ramsy Lalu</span>
+							<span>A-LEVEL student</span>
+						</div>
+					</div>
+					<p>I am a business student and accounts subject needs a lot of practice so as to do well. I have been using FAULU HUB to get good exams and this has helped me alot in my combination. I also share the contents with my friends and some enjoy too like Jolly.</p>
+				</div>                                       
+			</div>
+
+		</div>
+	</div>
+</section><!-- End Testimonial -->
+
+
+
+<section class="meet_our_team">
+	<div class="container">
+		<div class="row">
+			<div class="col-12 col-sm-12 col-md-12 col-lg-12">
+				<div class="meet_team_wrapper">  
+					<div class="sub_title">
+						<h2>Meet Our Instructors</h2>
+						<p>We have well trained Instructors and currently they are working hard to create VIDEO content for students. You better subscribe to our <a href="https://www.youtube.com/channel/UCSlRNvyqSsrW-ugXE5V35Bg" target="_blank">Youtube Channel</a> so as never miss when the contents are uploaded.</p>  
+					</div><!-- ends: .section-header -->
+					
+				</div> 
+			</div>
+		</div>      
+		<div class="row">
+			<div class="col-12 col-sm-6 col-md-6 col-lg-4">
+				<div class="testimonial_single">
+					<div class="reviewer_info">
+						<div class="pro_pic_teacher">
+							<img src="{% static 'images/team/mecky.jpeg' %}" alt="2" class="img-fluid">
+						</div>
+						<div class="name_position">
+							<span class="name"><a href="#" title="">Meleck Temba</a></span>
+							<span>Business Teacher</span>
+						</div>
+					</div>
+				</div>                                       
+			</div>
+			<div class="col-12 col-sm-6 col-md-6 col-lg-4">
+				<div class="testimonial_single">
+					<div class="reviewer_info">
+						<div class="pro_pic_teacher">
+							<img src="{% static 'images/team/paul.jpg' %}" alt="2" class="img-fluid">
+						</div>
+						<div class="name_position">
+							<span class="name"><a href="#" title="">Paul Affection</a></span>
+							<span>Geography Teacher</span>
+						</div>
+					</div>
+				</div>                                       
+			</div>
+			<div class="col-12 col-sm-6 col-md-6 col-lg-4">
+				<div class="testimonial_single">
+					<div class="reviewer_info">
+						<div class="pro_pic_teacher">
+							<img src="{% static 'images/team/eliamani.jpg' %}" alt="2" class="img-fluid">
+						</div>
+						<div class="name_position">
+							<span class="name"><a href="#" title="">Eliamani Jonas</a></span>
+							<span>Physics Teacher</span>
+						</div>
+					</div>
+				</div>                                       
+			</div>           
+			<div class="col-12 col-sm-6 col-md-6 col-lg-4">
+				<div class="testimonial_single">
+					<div class="reviewer_info">
+						<div class="pro_pic_teacher">
+							<img src="{% static 'images/team/mpoki.jpg' %}" alt="2" class="img-fluid">
+						</div>
+						<div class="name_position">
+							<span class="name"><a href="#" title="">Mpoki Buya</a></span>
+							<span>History Teacher</span>
+						</div>
+					</div>
+				</div>                                       
+			</div>
+			<div class="col-12 col-sm-6 col-md-6 col-lg-4">
+				<div class="testimonial_single">
+					<div class="reviewer_info">
+						<div class="pro_pic_teacher">
+							<img src="{% static 'images/team/richard.jpg' %}" alt="2" class="img-fluid">
+						</div>
+						<div class="name_position">
+							<span class="name"><a href="#" title="">Richard Tycoon</a></span>
+							<span>Mathematics Teacher </span>
+						</div>
+					</div>
+				</div>                                       
+			</div>
+			<div class="col-12 col-sm-6 col-md-6 col-lg-4">
+				<div class="testimonial_single">
+					<div class="reviewer_info">
+						<div class="pro_pic_teacher">
+							<img src="{% static 'images/team/bashayija.jpg' %}" alt="2" class="img-fluid">
+						</div>
+						<div class="name_position">
+							<span class="name"><a href="#" title="">Ambrose Bashayija</a></span>
+							<span>English Teacher</span>
+						</div>
+					</div>
+				</div>                                       
+			</div>
+            <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+				<div class="testimonial_single">
+					<div class="reviewer_info">
+						<div class="pro_pic_teacher">
+							<img src="{% static 'images/team/luqman.jpg' %}" alt="2" class="img-fluid">
+						</div>
+						<div class="name_position">
+							<span class="name"><a href="#" title="">Luqman Tuke</a></span>
+							<span>Computer Teacher </span>
+						</div>
+					</div>
+				</div>                                       
+			</div>
+            <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+				<div class="testimonial_single">
+					<div class="reviewer_info">
+						<div class="pro_pic_teacher">
+							<img src="{% static 'images/team/chris.jpg' %}" alt="2" class="img-fluid">
+						</div>
+						<div class="name_position">
+							<span class="name"><a href="#" title="">Chris Barnett</a></span>
+							<span>Additional Mathematics Teacher </span>
+						</div>
+					</div>
+				</div>                                       
+			</div>
+            <div class="col-12 col-sm-6 col-md-6 col-lg-4">
+				<div class="testimonial_single">
+					<div class="reviewer_info">
+						<div class="pro_pic_teacher">
+							<img src="{% static 'images/team/tabu.jpg' %}" alt="2" class="img-fluid">
+						</div>
+						<div class="name_position">
+							<span class="name"><a href="#" title="">Madam Tabu</a></span>
+							<span>Biology Teacher </span>
+						</div>
+					</div>
+				</div>                                       
+			</div>
+		</div>
+	</div>
+	<div class="shape_wrapper">
+		<img src="{% static 'images/shapes/testimonial_2_shpe_2.png' %}" alt="" class="shape_1">        
+		<img src="{% static 'images/shapes/testimonial_2_shpe_3.png' %}" alt="" class="shape_2">        
+		<img src="{% static 'images/shapes/testimonial_2_shpe_1.png' %}" alt="" class="shape_3">
+	</div>
+</section><!-- End Meet Our Team -->
+
+
+
+
+
+<!-- Footer -->  
+<footer class="footer_2">
+    <div class="container">
+        <div class="footer_top">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="footer_single_col footer_intro">
+                        <img src="{% static 'images/logo2.png' %}" alt="" class="f_logo">
+                        <p>FAULU HUB is a free learning platform that provides Notes, exams, videos and Discussion forum for students. Also weekly articles to help guide them.</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-2">
+                    <div class="footer_single_col">
+                        <h3>Useful Links</h3>
+                        <ul class="location_info quick_inf0">
+                            
+                            <li><a href="{% url 'content_list' %}">Notes</a></li>
+                            <li><a href="{% url 'forum:index' %}" class="nav-link">Discussion</a></li>
+                            <li><a href="{% url 'exam_list' %}" class="nav-link">Exams</a></li>
+                            <li><a href="{% url 'construction' %}" class="nav-link">Videos</a></li>
+                            
+                        </ul>                         
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-2">
+                    <div class="footer_single_col information">
+                        <h3>Useful Links</h3>
+                        <ul class="quick_inf0">
+                        
+                            <li><a href="{% url 'page_list' %}" class="nav-link">Blog</a></li>
+                            <li><a href="{% url 'contact' %}" class="nav-link">Contact</a></li>
+                            <li><a href="{% url 'home' %}">Home</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="footer_single_col contact">
+                        <h3>Contact Us</h3>
+                        <p>Contact us to give us any suggestion, feedback or anything though our <a href="{% url 'contact' %}" class="nav-link">Contact Us page</a> or through.</p>
+                        <div class="contact_info">
+                            <span>+255 758 585 847</span> 
+                            <span class="email">admin@fauluhub.com</span>
+                        </div>
+                        <ul class="social_items d-flex list-unstyled">
+                            <li><a href="#"><i class="fab fa-facebook-f fb-icon"></i></a></li>
+                            <li><a href="https://www.youtube.com/channel/UCSlRNvyqSsrW-ugXE5V35Bg"><i class="fab fa-youtube yt-icon"></i></a></li>
+                            <li><a href="#"><i class="fab fa-instagram ins-icon"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                 <div class="col-12 col-md-12 col-lg-12">
+                    <div class="copyright">
+                      Copyright &copy;2020 This platform was made by  <a target="_blank" href="https://www.instagram.com/smartcodes_tz">Luqman Tuke (smartcodes-tz)</a>
+                    </div>
+                 </div>
+            </div>
+        </div>
+    </div>
+    <div class="shapes_bg">
+        <img src="{% static 'images/shapes/testimonial_2_shpe_1.png' %}" alt="" class="shape_3">        
+        <img src="{% static 'images/shapes/footer_2.png' %}" alt="" class="shape_1' %}">
+    </div>    
+</footer><!-- End Footer -->
+
+<section id="scroll-top" class="scroll-top">
+    <h2 class="disabled">Scroll to top</h2>
+    <div class="to-top pos-rtive">
+        <a href="#"><i class = "flaticon-right-arrow"></i></a>
+    </div>
+</section>
+
+    <!-- JavaScript -->
+    <script src="{% static 'js/jquery-3.2.1.min.js' %}"></script>
+    <script src="{% static 'js/popper.min.js' %}"></script>
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+    <!-- Revolution Slider -->
+    <script src="{% static 'js/assets/revolution/jquery.themepunch.revolution.min.js' %}"></script>
+    <script src="{% static 'js/assets/revolution/jquery.themepunch.tools.min.js' %}"></script> 
+    <script src="{% static 'js/jquery.magnific-popup.min.js' %}"></script>     
+    <script src="{% static 'js/owl.carousel.min.js' %}"></script>   
+    <script src="{% static 'js/slick.min.js' %}"></script>   
+    <script src="{% static 'js/jquery.meanmenu.min.js' %}"></script>   
+    <script src="{% static 'js/wow.min.js' %}"></script> 
+    <!-- Counter Script -->
+    <script src="{% static 'js/waypoints.min.js' %}"></script>
+    <script src="{% static 'js/jquery.counterup.min.js' %}"></script>
+
+    <!-- Revolution Extensions -->
+    <script src="{% static 'js/assets/revolution/extensions/revolution.extension.actions.min.js' %}"></script>
+    <script src="{% static 'js/assets/revolution/extensions/revolution.extension.carousel.min.js' %}"></script>
+    <script src="{% static 'js/assets/revolution/extensions/revolution.extension.kenburn.min.js' %}"></script>
+    <script src="{% static 'js/assets/revolution/extensions/revolution.extension.layeranimation.min.js' %}"></script>
+    <script src="{% static 'js/assets/revolution/extensions/revolution.extension.migration.min.js' %}"></script>
+    <script src="{% static 'js/assets/revolution/extensions/revolution.extension.navigation.min.js' %}"></script>
+    <script src="{% static 'js/assets/revolution/extensions/revolution.extension.parallax.min.js' %}"></script>
+    <script src="{% static 'js/assets/revolution/extensions/revolution.extension.slideanims.min.js' %}"></script>
+    <script src="{% static 'js/assets/revolution/extensions/revolution.extension.video.min.js' %}"></script>
+    <script src="{% static 'js/assets/revolution/revolution.js' %}"></script>
+    <script src="{% static 'js/custom.js' %}"></script>  
+    
+   
+</body>
+</html>
