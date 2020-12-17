@@ -24,7 +24,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '9(9f9d^dxp$_*@zw=cj%2bunoi@#%04i4w39+st($we6!r=ay2'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
@@ -116,14 +116,11 @@ WSGI_APPLICATION = 'FAULU_HUB.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'fauludb',
-        'USER': 'fauluuser',
-        'PASSWORD': 'loki8191',
-        'HOST': '127.0.0.1',
-        'PORT': '5432',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+
 import dj_database_url
 
 db_from_env = dj_database_url.config(conn_max_age=600)
