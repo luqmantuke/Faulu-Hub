@@ -3,7 +3,7 @@ from blog.models import Post
 
 
 def index(request):
-    posts = Post.objects.all().order_by('-publish')[0:6]
+    posts = Post.objects.filter(status='published').order_by('-created')[0:6]
     context = {
         'post': posts
     }
