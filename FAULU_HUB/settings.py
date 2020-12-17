@@ -51,6 +51,7 @@ INSTALLED_APPS = [
     'embed_video',
     'crispy_forms',
     'django_filters',
+    'storages',
     # Machina dependencies:
     'mptt',
     'haystack',
@@ -170,9 +171,16 @@ STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static'),
 ]
 STATIC_ROOT = os.path.join(BASE_DIR, 'assets')
 
-# Media
-MEDIA_URL = '/media/'
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+# AWS MEDIA FILE STORAGE
+AWS_ACCESS_KEY_ID = 'AKIAVCBV7D5LFSENPCEB'
+AWS_SECRET_ACCESS_KEY = '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'
+AWS_STORAGE_BUCKET_NAME = 'fauluhub-bucket'
+# AWS_S3_REGION_NAME = 'us-east-'
+# AWS_S3_SIGNATURE_VERSION = 's3v4'
+AWS_S3_FILE_OVERWRITE = False
+AWS_DEFAULT_ACL = None
+DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
+
 
 CACHES = {
     'default': {
