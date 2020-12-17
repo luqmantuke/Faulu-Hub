@@ -26,7 +26,7 @@ SECRET_KEY = '9(9f9d^dxp$_*@zw=cj%2bunoi@#%04i4w39+st($we6!r=ay2'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['faulu-hub.herokuapp.com', 'fauluhub.com']
+ALLOWED_HOSTS = ['faulu-hub.herokuapp.com', 'fauluhub.com', '127.0.0.1']
 
 
 # Application definition
