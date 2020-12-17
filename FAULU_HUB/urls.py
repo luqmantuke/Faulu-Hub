@@ -17,9 +17,7 @@ from django.contrib import admin
 from django.urls import path, include
 from django.contrib.auth import views as auth_views
 from courses.views import CourseListView
-from django.conf import settings
 from machina import urls as machina_urls
-from django.conf.urls.static import static
 
 
 
@@ -39,7 +37,6 @@ urlpatterns = [
 
 
 
-urlpatterns = urlpatterns + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 handler403 = 'courses.views.handler403'
 handler404 = 'courses.views.handler404'
