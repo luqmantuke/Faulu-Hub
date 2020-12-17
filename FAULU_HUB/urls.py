@@ -22,7 +22,7 @@ from machina import urls as machina_urls
 
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    path('vaultadmins/', admin.site.urls),
     path('', include('home.urls')),
     path('contact/',  include('contact.urls')),
     path('notes/',  include('notes.urls')),
