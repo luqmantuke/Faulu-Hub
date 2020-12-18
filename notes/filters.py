@@ -6,4 +6,4 @@ class NotesFilter(django_filters.FilterSet):
     class Meta:
         model = Content
         fields = '__all__'
-        exclude = ['name', 'slug', 'body', 'image']
+        exclude = ['name', 'slug', 'body', 'image', 'order']
