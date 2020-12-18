@@ -7,7 +7,7 @@ from .filters import NotesFilter
 
 
 def content_list(request):
-    notes = Content.objects.all()
+    notes = Content.objects.all().order_by('order')
     template_name = 'notes/content_list.html'
     myFilter = NotesFilter(request.GET, queryset=notes)
     notes = myFilter.qs
