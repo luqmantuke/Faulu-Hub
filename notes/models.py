@@ -32,6 +32,8 @@ class Content(models.Model):
     slug = models.SlugField(max_length=250, blank=True)
     body = RichTextField(blank=True, null=True)
     image = models.ImageField(upload_to='media/notes', null=True)
+    order = models.PositiveIntegerField(null=True)
+
 
     def get_absolute_url(self):
         return reverse("content_detail", kwargs={"slug": self.slug})
