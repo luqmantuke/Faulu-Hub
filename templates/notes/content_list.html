@@ -97,7 +97,19 @@
                         <li class="nav-item"><a href="{% url 'contact' %}" class="nav-link">Contact</a></li>
                     </ul>
                 </div>
-                        
+                         <div class="mr-auto search_area ">
+                    <ul class="navbar-nav mx-auto d-flex">
+                        <li class="nav-item search_icon"><i class="search_btn flaticon-magnifier"></i>
+                            <div id="search">
+                                <button type="button" class="close">×</button>
+                                   <form action="{% url 'search_results' %}" method="get">
+                                 <input name="q" type="text" value="" placeholder="Search here...."  required/>
+                                 </form>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
             </nav><!-- END NAVBAR -->
         </div> 
     </div>
@@ -112,11 +124,26 @@
                     </div>
                 </div>              
 
+                <div class="col-sm-12 col-md-12 col-lg-12">
+					<div class="search_wrapper">
+						<div class="search-option" >
+							<form action="{% url 'search_results' %}" method="get">
+
+								<div class="form-group d-flex">
+									<input name="q" placeholder="What do you want to learn today?" type="text" required="">
+								</div>
+								<div class="submit-btn">
+									<button type="submit" class="text-center">Search</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+
             </div>
         </div> 
     </div> 
 </header> <!-- End Header -->
-
 
 
 
@@ -145,7 +172,7 @@
 
 
 
-
+{% block body %}
 <section class="latest_news_2" id="latest_news_style_2">
     <div class="container">
         <div class="row">
@@ -172,7 +199,7 @@
         </div>
     </div>
 </section><!-- End Our Blog -->
-
+{% endblock body %}
 <!-- Footer -->  
 <footer class="footer_2">
     <div class="container">
