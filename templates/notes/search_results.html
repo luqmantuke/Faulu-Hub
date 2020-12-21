@@ -1,23 +1,30 @@
 {% extends 'base.html' %}
 {% block body %}
-
-<!-- Start Events Area Section -->
-<section class="events-area">
+<h2>Search results</h2>
+    <section class="latest_news_2" id="latest_news_style_2">
     <div class="container">
         <div class="row">
-        {% for notes in object_list %}
-            <div class="col-sm-12 events_full_box">
-                <div class="events_single">
-                    <div class="event_banner">
-                        <img src="{{ notes.image.url }}" alt="" class="img-fluid">
+         {% for notes in object_list  %}
+            <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+                 <div class="single_item">
+                    <div class="item_wrapper">
+                        <div class="blog-img">
+                   <img src="{{ notes.image.url }}" alt="" class="img-fluid">
+                        </div>
+                        <h3><a href="{{ notes.get_absolute_url }}" title="">{{ notes.name }}</a></h3>
+                        <a href="{{ notes.get_absolute_url }}" title=""> {{ notes.body|truncatewords:3 | safe }}</a>
+
                     </div>
-                    <div class="event_info">
-                       <h3><a href="{{ notes.get_absolute_url }}">{{ notes.name }}</a></h4></h3>
-                        <a href="{{ notes.get_absolute_url }}"> <p>{{ notes.body|truncatewords:3 | safe }}</p></a>
-                         {% empty %}
+                    <div class="blog_title">
+                        <ul class="post_bloger">
+                            <li><i class="fas fa-user"></i>{{ notes.form }}</li>
+                            <li><i class="fas fa-book"></i> {{ notes.subject }}</li>
+                        </ul>
+                    </div>
+                     {% empty %}
             <p>There are no results for your search. Kindly re-search<br>
             and make sure with your keyword and spelling.</p>
-                        <div class="container">
+                     <div class="container">
                             <div class="row">
                        <form action="{% url 'search_results' %}" method="get">
                                             <div class="form-group">
@@ -30,16 +37,14 @@
 
                         </div>
                         </div>
-                        <div class="event_dete">
-                            <span class="date">{{ notes.created }}</span>
-                        </div>
-                    </div>
                 </div>
+            </div>
         {% endfor %}
-            </div>
+
+
         </div>
-            </div>
-</section><!-- ./ End Events Area section -->
+    </div>
+</section>
 
 {% endblock body %}
 <!--<html>-->
