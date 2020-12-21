@@ -1,81 +1,47 @@
-<link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
-<style>
-    body{
-    background:#eee;
+{% extends 'base.html' %}
+{% block body %}
 
-}
-.search-result .title h3 {
-    margin: 0 0 15px;
-    color: #333;
-}
-.search-result .title p {
-    font-size: 12px;
-    color: #333;
-}
-.well {
-    border: 0;
-    padding: 20px;
-    min-height: 63px;
-    background: #fff;
-    box-shadow: none;
-    border-radius: 3px;
-    position: relative;
-    max-height: 100000px;
-    border-bottom: 2px solid #ccc;
-    transition: max-height 0.5s ease;
-    -o-transition: max-height 0.5s ease;
-    -ms-transition: max-height 0.5s ease;
-    -moz-transition: max-height 0.5s ease;
-    -webkit-transition: max-height 0.5s ease;
-}
-.form-control {
-    height: 45px;
-    padding: 10px;
-    font-size: 16px;
-    box-shadow: none;
-    border-radius: 0;
-    position: relative;
-}
-</style>
-<div class="container bootstrap snippets bootdey">
-    <hr>
-
-    <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-            <div class="well search-result">
-                <div class="input-group">
-                    <form action="{% url 'search_results' %}" method="get">
-                    <input name="q" type="text" class="form-control" placeholder="Search">
-                    <span class="input-group-btn">
-              <button class="btn btn-info btn-lg" type="submit">
-                        <i class="glyphicon glyphicon-search"></i>
-                        Search
-                    </button>
-            </span>
-                    </form>
-                </div>
-            </div>
+<!-- Start Events Area Section -->
+<section class="events-area">
+    <div class="container">
+        <div class="row">
         {% for notes in object_list %}
-            <div class="well search-result">
-                <div class="row">
-                    <a href="#">
-                        <div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
-                            {{ notes.image.url }}
+            <div class="col-sm-12 events_full_box">
+                <div class="events_single">
+                    <div class="event_banner">
+                        <img src="{{ notes.image.url }}" alt="" class="img-fluid">
+                    </div>
+                    <div class="event_info">
+                       <h3><a href="{{ notes.get_absolute_url }}">{{ notes.name }}</a></h4></h3>
+                        <a href="{{ notes.get_absolute_url }}"> <p>{{ notes.body|truncatewords:3 | safe }}</p></a>
+                         {% empty %}
+            <p>There are no results for your search. Kindly re-search<br>
+            and make sure with your keyword and spelling.</p>
+                        <div class="container">
+                            <div class="row">
+                       <form action="{% url 'search_results' %}" method="get">
+                                            <div class="form-group">
+                        <label>Search</label>
+                        <input name="q" type="text" class="form-control" placeholder="Search..............">
+                     <button type="submit" class="btn btn-primary">Search</button>
+
+                      </div>
+                    </form>
+
                         </div>
-                        <div class="col-xs-6 col-sm-9 col-md-9 col-lg-10 title">
-                            <h3><a href="{{ notes.get_absolute_url }}">{{ notes.name }}</a></h3>
-                            <p>{{ notes.body|truncatewords:3 | safe }}</p>
-                             {% empty %}
-                        <p>There are no results for your search. Kindly re-search<br>
-                               and make sure with your keyword and spelling.</p>
                         </div>
-                    </a>
+                        <div class="event_dete">
+                            <span class="date">{{ notes.created }}</span>
+                        </div>
+                    </div>
                 </div>
-            </div>
         {% endfor %}
+            </div>
         </div>
-    </div>
-</div>
+            </div>
+</section><!-- ./ End Events Area section -->
+
+{% endblock body %}
 <!--<html>-->
 <!--{% load static %}-->
 <!--<head>-->

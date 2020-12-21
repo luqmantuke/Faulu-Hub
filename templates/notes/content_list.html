@@ -97,19 +97,7 @@
                         <li class="nav-item"><a href="{% url 'contact' %}" class="nav-link">Contact</a></li>
                     </ul>
                 </div>
-                         <div class="mr-auto search_area ">
-                    <ul class="navbar-nav mx-auto d-flex">
-                        <li class="nav-item search_icon"><i class="search_btn flaticon-magnifier"></i>
-                            <div id="search">
-                                <button type="button" class="close">×</button>
-                                   <form action="{% url 'search_results' %}" method="get">
-                                 <input name="q" type="text" value="" placeholder="Search here...."  required/>
-                                 </form>
-                            </div>
-                        </li>
 
-                    </ul>
-                </div>
             </nav><!-- END NAVBAR -->
         </div> 
     </div>
@@ -151,17 +139,34 @@
 <section class="latest_news_2" id="latest_news_style_2">
     <div class="container">
         <div class="row">
+            <h2>You can search anything you want or filter from the form below<br>
+                <p style="color:red">USE ONLY ONE METHOD</p>
+            </h2>
+             <div class="container">
+                            <div class="row">
+                       <form action="{% url 'search_results' %}" method="get">
+                                            <div class="form-group">
+                        <label>Search</label>
+                        <input name="q" type="text" class="form-control" placeholder="Search..............">
+                     <button type="submit" class="btn btn-primary">Search</button>
+
+                      </div>
+                    </form>
+
+                        </div>
+                        </div>
+            <div class="container">
+            <div class="row">
             <div class="col-12 col-sm-6 col-md-4 col-lg-4">
                 <form action="" method='get'>
                 {% csrf_token %}
                 <h2 style="color:green; font-size:16px">Select From The Choices the form and Subject</h2>
                 {{ myfilter.form }}
             <button type="submit" class="btn btn-primary">Search</button>
-
- 
-				
                 </form>
                 </div>
+            </div>
+            </div>
             </div>            
      
           
