@@ -1,0 +1,123 @@
+<link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+<style>
+    body{
+    background:#eee;
+
+}
+.search-result .title h3 {
+    margin: 0 0 15px;
+    color: #333;
+}
+.search-result .title p {
+    font-size: 12px;
+    color: #333;
+}
+.well {
+    border: 0;
+    padding: 20px;
+    min-height: 63px;
+    background: #fff;
+    box-shadow: none;
+    border-radius: 3px;
+    position: relative;
+    max-height: 100000px;
+    border-bottom: 2px solid #ccc;
+    transition: max-height 0.5s ease;
+    -o-transition: max-height 0.5s ease;
+    -ms-transition: max-height 0.5s ease;
+    -moz-transition: max-height 0.5s ease;
+    -webkit-transition: max-height 0.5s ease;
+}
+.form-control {
+    height: 45px;
+    padding: 10px;
+    font-size: 16px;
+    box-shadow: none;
+    border-radius: 0;
+    position: relative;
+}
+</style>
+<div class="container bootstrap snippets bootdey">
+    <hr>
+
+    <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            <div class="well search-result">
+                <div class="input-group">
+                    <form action="{% url 'search_results' %}" method="get">
+                    <input name="q" type="text" class="form-control" placeholder="Search">
+                    <span class="input-group-btn">
+              <button class="btn btn-info btn-lg" type="submit">
+                        <i class="glyphicon glyphicon-search"></i>
+                        Search
+                    </button>
+            </span>
+                    </form>
+                </div>
+            </div>
+        {% for notes in object_list %}
+            <div class="well search-result">
+                <div class="row">
+                    <a href="#">
+                        <div class="col-xs-6 col-sm-3 col-md-3 col-lg-2">
+                            {{ notes.image.url }}
+                        </div>
+                        <div class="col-xs-6 col-sm-9 col-md-9 col-lg-10 title">
+                            <h3><a href="{{ notes.get_absolute_url }}">{{ notes.name }}</a></h3>
+                            <p>{{ notes.body|truncatewords:3 | safe }}</p>
+                             {% empty %}
+                        <p>There are no results for your search. Kindly re-search<br>
+                               and make sure with your keyword and spelling.</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        {% endfor %}
+        </div>
+    </div>
+</div>
+<!--<html>-->
+<!--{% load static %}-->
+<!--<head>-->
+<!--    <title>Search Results</title>-->
+<!--<link rel="stylesheet" href="{% static 'css/search.css' %}">-->
+<!--    <body>-->
+<!--<div class="container bootstrap snippets bootdey">-->
+<!--    <div class="row">-->
+<!--        <div class="col-lg-12">-->
+<!--            <div class="ibox float-e-margins">-->
+<!--                <div class="ibox-content">-->
+
+<!--                    <div class="search-form">-->
+<!--                        <form action="{% url 'search_results' %}" method="get">-->
+<!--                            <div class="input-group">-->
+<!--                                <input type="text" placeholder="Search Again" name="q" class="form-control input-lg">-->
+<!--                                <div class="input-group-btn">-->
+<!--                                    <button class="btn btn-lg btn-primary" type="submit">-->
+<!--                                        Search-->
+<!--                                    </button>-->
+<!--                                </div>-->
+<!--                            </div>-->
+<!--                        </form>-->
+<!--                    </div>-->
+<!--                {% for notes in object_list %}-->
+<!--                    <div class="hr-line-dashed"></div>-->
+<!--                    <div class="search-result">-->
+<!--                        <h3><a href="{{ notes.get_absolute_url }}">{{ notes.name }}</a></h4></h3>-->
+<!--                            {{ notes.body|truncatewords:3 | safe }}-->
+<!--                        <p>-->
+<!--                             {% empty %}&ndash;&gt;-->
+<!--&lt;!&ndash;            <p>There are no results for your search. Kindly re-search<br>&ndash;&gt;-->
+<!--&lt;!&ndash;            and make sure with your keyword and spelling.</p>&ndash;&gt;-->
+<!--                        </p>-->
+<!--                    </div>-->
+<!--                    <div class="hr-line-dashed"></div>-->
+<!--                {% endfor %}-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
+<!--</body>-->
+<!--</head>-->
+<!--</html>-->
