@@ -18,8 +18,33 @@ from django.urls import path, include
 from django.contrib.auth import views as auth_views
 from courses.views import CourseListView
 from machina import urls as machina_urls
+from django.contrib.sitemaps import GenericSitemap
+from django.contrib.sitemaps.views import sitemap
+from blog.models import Post
+from notes.models import Content
+from exams.models import ExamContent
+from django.views.generic import TemplateView
 
+notes_dict = {
+    'queryset': Content.objects.all(),
+    'date_field': 'created'
+}
 
+exams_dict = {
+    'queryset': ExamContent.objects.all(),
+    'date_field': 'created'
+}
+
+blog_dict = {
+    'queryset': Post.objects.filter(status='Published'),
+    'date_field': 'created'
+}
+
+sitemaps = {
+    'notes': GenericSitemap(notes_dict, priority=0.6),
+    'exams': GenericSitemap(exams_dict, priority=0.6),
+    'blog': GenericSitemap(blog_dict, priority=0.6),
+}
 
 urlpatterns = [
     path('vaultadmins/', admin.site.urls),
@@ -32,6 +57,9 @@ urlpatterns = [
     path('forum/', include(machina_urls)),
     path('students/', include('students.urls')),
     path('accounts/', include('allauth.urls')),
+    path('sitemap.xml', sitemap, {'sitemaps': sitemaps},
+         name='django.contrib.sitemaps.views.sitemap'),
+    path('robots.txt/', TemplateView.as_view(template_name="Robots.txt", content_type="text/plain"),),
 ]
 
 

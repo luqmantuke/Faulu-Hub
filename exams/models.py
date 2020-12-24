@@ -37,7 +37,7 @@ class Subject(models.Model):
         return self.name
     
 
-class Content(models.Model):
+class ExamContent(models.Model):
     form = models.ForeignKey(Form, on_delete=models.CASCADE, null=True, blank=True)
     subject = models.ForeignKey(Subject, on_delete=models.CASCADE, blank=True, null=True)
     exams_type = models.ForeignKey(ExamsType, on_delete=models.CASCADE, null=True)
@@ -45,6 +45,8 @@ class Content(models.Model):
     slug = models.SlugField(max_length=250, blank=True)
     body = RichTextField(blank=True, null=True)
     image = models.ImageField(upload_to='media/notes', null=True)
+    created = models.DateTimeField(auto_now_add=True, null=True)
+
 
     def get_absolute_url(self):
         return reverse("exam_detail", kwargs={"slug": self.slug})
@@ -57,4 +59,4 @@ def slug_generator(sender, instance, *args, **kwargs):
         instance.slug = unique_slug_generator(instance) 
 
 
-pre_save.connect(slug_generator, sender = Content)
+pre_save.connect(slug_generator, sender = ExamContent)

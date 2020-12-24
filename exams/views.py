@@ -7,7 +7,7 @@ from .filters import ExamsFilter
 
 
 def exam_list(request):
-    notes = Content.objects.all()
+    notes = ExamContent.objects.all()
     template_name = 'exams/exam_list.html'
     myFilter = ExamsFilter(request.GET, queryset=notes)
     notes = myFilter.qs
@@ -16,7 +16,7 @@ def exam_list(request):
         'myfilter': myFilter})
 
 def exam_detail(request, slug):
-    q = Content.objects.filter(slug__iexact = slug)
+    q = ExamContent.objects.filter(slug__iexact = slug)
     if q.exists(): 
         q = q.first()
     else: 

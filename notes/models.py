@@ -33,6 +33,7 @@ class Content(models.Model):
     body = RichTextField(blank=True, null=True)
     image = models.ImageField(upload_to='media/notes', null=True)
     order = models.PositiveIntegerField(null=True)
+    created = models.DateTimeField(auto_now_add=True, null=True)
 
 
     def get_absolute_url(self):

@@ -56,7 +56,6 @@ INSTALLED_APPS = [
     'mptt',
     'haystack',
     'widget_tweaks',
-
     # Machina apps:
     'machina',
     'machina.apps.forum',
@@ -70,6 +69,7 @@ INSTALLED_APPS = [
     'machina.apps.forum_member',
     'machina.apps.forum_permission',
     'django.contrib.sites',
+    'django.contrib.sitemaps',
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
