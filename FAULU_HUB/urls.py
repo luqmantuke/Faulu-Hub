@@ -41,9 +41,9 @@ blog_dict = {
 }
 
 sitemaps = {
-    'notes': GenericSitemap(notes_dict, priority=0.6),
-    'exams': GenericSitemap(exams_dict, priority=0.6),
-    'blog': GenericSitemap(blog_dict, priority=0.6),
+    'notes': GenericSitemap(notes_dict, priority=0.6, protocol='https'),
+    'exams': GenericSitemap(exams_dict, priority=0.6, protocol='https'),
+    'blog': GenericSitemap(blog_dict, priority=0.6, protocol='https'),
 }
 
 urlpatterns = [
