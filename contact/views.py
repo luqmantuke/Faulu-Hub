@@ -3,6 +3,8 @@ from .models import *
 from .forms import ContactForm
 from django.contrib import messages
 from django.http import HttpResponse, HttpResponseRedirect
+from django.core.mail import send_mail, BadHeaderError
+from FAULU_HUB import settings
 
 def contactView(request):
 
@@ -16,12 +18,12 @@ def contactView(request):
             email = form.cleaned_data['email']
             message = form.cleaned_data['message']
             message = form.cleaned_data['message']
-            contact_message = f'Customer  "{name}" with the email {email} just contacted you and left a message  "{message}" please contact him as soon as possible'
+            contact_message = f'User  "{name}" with the email {email} just contacted you and left a message  "{message}" please contact him as soon as possible'
             form.save()
-            #try: 
-               #send_mail(subject, contact_message, settings.EMAIL_HOST_USER, ['tuksim@tuksimadventures.com'], settings.FAIL_SILENTLY)
-            #except BadHeaderError:
-                #return HttpResponse('Invalid Header.')
+            try:
+               send_mail(subject, contact_message, settings.EMAIL_HOST_USER, ['tuke.luqman@gmail.com'], settings.FAIL_SILENTLY)
+            except BadHeaderError:
+                return HttpResponse('Invalid Header.')
             
             messages.success(request, f"Thank You For Contacting Us { name }, We Shall Reach You As Soon As Possible. :)")
             return HttpResponseRedirect(reverse('home'))
