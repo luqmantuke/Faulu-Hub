@@ -4,6 +4,6 @@ from .models import *
 
 class ExamsFilter(django_filters.FilterSet):
     class Meta:
-        model = Content
+        model = ExamContent
         fields = '__all__'
         exclude = ['name', 'slug', 'body', 'image', 'subject', 'form']

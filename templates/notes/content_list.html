@@ -1,35 +1,37 @@
 {% load static %}
+
 <html lang="en">
 <head>
     <!-- Required meta tags -->
     <meta charset="UTF-8">
-    <meta name="description" content="">
-    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
-    <meta name="author" content="Ecology Theme">
+    <meta name="description" content="Faulu Hub is a Tanzanian online learning platform providing free study resources such as Notes, NECTA Exams and non-necta Exams and Videos. Also, Faulu Hub
+provides Blog Articles to guide learners.">
+    <meta name="keywords" content="Notes, NECTA, Exams, Soma online, faulu hub, videos, free notes, free books, free videos">
+    <meta name="author" content="Faulu Hub">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Faulu Hub</title>
     <link rel="icon" href="{% static 'images/logo.jpg' %}" type="image/jpg">
     <!-- Goole Font -->
     <link href="https://fonts.googleapis.com/css?family=Rubik:400,500,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900" rel="stylesheet">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="{% static 'css/assets/bootstrap.min.css' %}">
     <!-- Font awsome CSS -->
-    <link rel="stylesheet" href="{% static 'css/assets/font-awesome.min.css' %}">    
+    <link rel="stylesheet" href="{% static 'css/assets/font-awesome.min.css' %}">
     <link rel="stylesheet" href="{% static 'css/assets/flaticon.css' %}">
-    <link rel="stylesheet" href="{% static 'css/assets/magnific-popup.css' %}">    
+    <link rel="stylesheet" href="{% static 'css/assets/magnific-popup.css' %}">
     <!-- owl carousel -->
     <link rel="stylesheet" href="{% static 'css/assets/owl.carousel.css' %}">
-    <link rel="stylesheet" href="{% static 'css/assets/owl.theme.css' %}">     
-    <link rel="stylesheet" href="{% static 'css/assets/animate.css' %}"> 
+    <link rel="stylesheet" href="{% static 'css/assets/owl.theme.css' %}">
+    <link rel="stylesheet" href="{% static 'css/assets/animate.css' %}">
     <!-- Slick Carousel -->
-    <link rel="stylesheet" href="{% static 'css/assets/slick.css' %}">  
+    <link rel="stylesheet" href="{% static 'css/assets/slick.css' %}">
 
-    <!-- Revolution Slider -->
-    <link rel="stylesheet" href="{% static 'css/assets/revolution/layers.css' %}">
-    <link rel="stylesheet" href="{% static 'css/assets/revolution/navigation.css' %}">
-    <link rel="stylesheet" href="{% static 'css/assets/revolution/settings.css' %}">    
+<!--    &lt;!&ndash; Revolution Slider &ndash;&gt;-->
+<!--    <link rel="stylesheet" href="{% static 'css/assets/revolution/layers.css' %}">-->
+<!--    <link rel="stylesheet" href="{% static 'css/assets/revolution/navigation.css' %}">-->
+<!--    <link rel="stylesheet" href="{% static 'css/assets/revolution/settings.css' %}">-->
     <!-- Mean Menu-->
     <link rel="stylesheet" href="{% static 'css/assets/meanmenu.css' %}">
     <!-- main style-->
@@ -39,14 +41,22 @@
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<!--      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>-->
+<!--      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>-->
     <![endif]-->
     <!—- ShareThis BEGIN -—>
 <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=5fd7d0285be97700184ab697&product=sticky-share-buttons" async="async"></script>
 <!—- ShareThis END -—>
 </head>
 <body>
+{% if messages %}<br>
+<div style="font-size:13px;" class="col-md-12 text-center mt-0 pt-0">
+  {% for message in messages %}
+    <div class="alert alert-{{ message.tags }}">{{ message | safe }}</div>
+  {% endfor %}
+</div>
+{% endif %}
+
 <header class="header_3">
 <!-- Preloader -->
 
@@ -55,13 +65,13 @@
 			<div class="row">
 				<div class="col-12 col-sm-12 col-lg-12">
 					<div class="info_wrapper">
-						<div class="contact_info">                   
+						<div class="contact_info">
 							<ul class="list-unstyled">
                                 <li><i class="flaticon-phone-receiver"></i>+255 758 585 847</li>
         						<li><i class="flaticon-mail-black-envelope-symbol"></i>admin@fauluhub.com</li>
-        					</ul>                
+        					</ul>
 						</div>
-						
+
 					</div>
 				</div>
 			</div>
@@ -74,26 +84,26 @@
                 <a class="navbar-brand" href="index-2.html"><img src="{% static 'images/logo.png' %}" alt="logo"></a>
                 <div class="collapse navbar-collapse main-menu" id="navbarSupportedContent">
                     <ul class="navbar-nav nav lavalamp ml-auto menu">
-                        <li class="nav-item"><a href="{% url 'home' %}" class="nav-link">Home</a>
-                         
+                        <li class="nav-item"><a href="{% url 'home' %}" class="nav-link active">Home</a>
+
                         </li>
                         <li class="nav-item"><a href="{% url 'construction' %}" class="nav-link">Videos</a>
-                           
+
                         </li>
                         <li class="nav-item"><a href="{% url 'exam_list' %}" class="nav-link">Exams</a>
-                           
+
                         </li>
-                        <li class="nav-item"><a href="{% url 'content_list' %}" class="nav-link active">Notes</a>
-                           
+                        <li class="nav-item"><a href="{% url 'content_list' %}" class="nav-link">Notes</a>
+
                         </li>
                         <li class="nav-item"><a href="{% url 'forum:index' %}" class="nav-link">Discussion</a>
-                           
+
                         </li>
                         <li class="nav-item"><a href="{% url 'page_list' %}" class="nav-link">Blog</a>
-                    
+
                         </li>
-                                                     
-                                
+
+
                         <li class="nav-item"><a href="{% url 'contact' %}" class="nav-link">Contact</a></li>
                     </ul>
                 </div>

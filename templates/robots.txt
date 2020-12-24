@@ -1,0 +1,3 @@
+Sitemap: https://www.fauluhub.com/sitemap.xml
+User-agent: *
+Disallow:
