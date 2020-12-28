@@ -1,392 +1,630 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <urlset
       xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+      xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xsi:schemaLocation="
+            http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+<!-- created with PRO Sitemap Service https://pro-sitemaps.com -->
 
-
-<url>
-  <loc>https://www.fauluhub.com/</loc>
-  <lastmod>2020-12-24T22:07:13+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://www.fauluhub.com/course/</loc>
-  <lastmod>2020-12-24T22:07:13+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.fauluhub.com/exams/exams-list/</loc>
-  <lastmod>2020-12-24T22:07:13+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.fauluhub.com/notes/notes-list/</loc>
-  <lastmod>2020-12-24T22:07:13+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.fauluhub.com/forum/</loc>
-  <lastmod>2020-12-24T22:07:13+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.fauluhub.com/blog</loc>
-  <lastmod>2020-12-24T22:07:13+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.fauluhub.com/contact/</loc>
-  <lastmod>2020-12-24T22:07:13+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.fauluhub.com/notes/notes-list/introduction-to-biology/</loc>
-  <lastmod>2020-12-24T22:07:13+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.fauluhub.com/notes/notes-list/safety-in-our-environment/</loc>
-  <lastmod>2020-12-24T22:07:13+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.fauluhub.com/notes/notes-list/cell-structure-and-organization/</loc>
-  <lastmod>2020-12-24T22:07:13+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.fauluhub.com/notes/notes-list/classification-of-living-things/</loc>
-  <lastmod>2020-12-24T22:07:13+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.fauluhub.com/notes/notes-list/classification-of-living-things-formtwo/</loc>
-  <lastmod>2020-12-24T22:07:13+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.fauluhub.com/notes/notes-list/nutrition/</loc>
-  <lastmod>2020-12-24T22:07:13+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.fauluhub.com/notes/notes-list/balance-of-nature/</loc>
-  <lastmod>2020-12-24T22:07:13+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.fauluhub.com/notes/notes-list/transportation-of-materials-in-living-things/</loc>
-  <lastmod>2020-12-24T22:07:13+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.fauluhub.com/notes/notes-list/gaseous-exchange-and-respiration/</loc>
-  <lastmod>2020-12-24T22:07:13+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.fauluhub.com/notes/notes-list/classification-of-living-things-form-three/</loc>
-  <lastmod>2020-12-24T22:07:13+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.fauluhub.com/notes/notes-list/movement/</loc>
-  <lastmod>2020-12-24T22:07:13+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.fauluhub.com/notes/notes-list/coordination/</loc>
-  <lastmod>2020-12-24T22:07:13+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.fauluhub.com/notes/notes-list/excretion/</loc>
-  <lastmod>2020-12-24T22:07:13+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.fauluhub.com/notes/notes-list/regulation/</loc>
-  <lastmod>2020-12-24T22:07:13+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.fauluhub.com/notes/notes-list/reproduction/</loc>
-  <lastmod>2020-12-24T22:07:13+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.fauluhub.com/notes/notes-list/growth/</loc>
-  <lastmod>2020-12-24T22:07:13+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.fauluhub.com/notes/notes-list/genetics/</loc>
-  <lastmod>2020-12-24T22:07:13+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.fauluhub.com/notes/notes-list/evolution/</loc>
-  <lastmod>2020-12-24T22:07:13+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.fauluhub.com/notes/notes-list/classification-of-living-things-form-four/</loc>
-  <lastmod>2020-12-24T22:07:13+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.fauluhub.com/notes/notes-list/hiv-and-aids-and-stds/</loc>
-  <lastmod>2020-12-24T22:07:13+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.fauluhub.com/notes/notes-list/introduction-to-physics/</loc>
-  <lastmod>2020-12-24T22:07:13+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.fauluhub.com/notes/notes-list/introduction-to-laboratory-rules-and-safety/</loc>
-  <lastmod>2020-12-24T22:07:13+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.fauluhub.com/notes/notes-list/measurement/</loc>
-  <lastmod>2020-12-24T22:07:13+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.fauluhub.com/notes/notes-list/force/</loc>
-  <lastmod>2020-12-24T22:07:13+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.fauluhub.com/notes/notes-list/archimedes-principle-and-law-of-flotation/</loc>
-  <lastmod>2020-12-24T22:07:13+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.fauluhub.com/notes/notes-list/structure-and-properties-of-matter/</loc>
-  <lastmod>2020-12-24T22:07:13+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.fauluhub.com/notes/notes-list/pressure/</loc>
-  <lastmod>2020-12-24T22:07:13+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.fauluhub.com/notes/notes-list/work-energy-and-power/</loc>
-  <lastmod>2020-12-24T22:07:13+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.fauluhub.com/notes/notes-list/light/</loc>
-  <lastmod>2020-12-24T22:07:13+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.fauluhub.com/notes/notes-list/static-electricity/</loc>
-  <lastmod>2020-12-24T22:07:13+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.fauluhub.com/notes/notes-list/current-electricity/</loc>
-  <lastmod>2020-12-24T22:07:13+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.fauluhub.com/notes/notes-list/magnetism/</loc>
-  <lastmod>2020-12-24T22:07:13+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.fauluhub.com/notes/notes-list/forces-in-equilibrum/</loc>
-  <lastmod>2020-12-24T22:07:13+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.fauluhub.com/notes/notes-list/simple-machines/</loc>
-  <lastmod>2020-12-24T22:07:13+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.fauluhub.com/forum/search/</loc>
-  <lastmod>2020-12-24T22:07:13+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.fauluhub.com/accounts/login/</loc>
-  <lastmod>2020-12-24T22:07:13+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.fauluhub.com/accounts/signup/</loc>
-  <lastmod>2020-12-24T22:07:13+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.fauluhub.com/forum/forum/relationship-17/</loc>
-  <lastmod>2020-12-24T22:07:13+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.fauluhub.com/forum/member/profile/5/</loc>
-  <lastmod>2020-12-24T22:07:13+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.fauluhub.com/forum/forum/relationship-17/topic/testing-email-shit-1/?post=3</loc>
-  <lastmod>2020-12-24T22:07:13+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.fauluhub.com/forum/forum/physics-1/</loc>
-  <lastmod>2020-12-24T22:07:13+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.fauluhub.com/forum/forum/chemistry-2/</loc>
-  <lastmod>2020-12-24T22:07:13+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.fauluhub.com/forum/forum/mathematics-3/</loc>
-  <lastmod>2020-12-24T22:07:13+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.fauluhub.com/forum/forum/geography-4/</loc>
-  <lastmod>2020-12-24T22:07:13+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.fauluhub.com/forum/forum/biology-5/</loc>
-  <lastmod>2020-12-24T22:07:13+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.fauluhub.com/forum/forum/history-6/</loc>
-  <lastmod>2020-12-24T22:07:13+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.fauluhub.com/forum/forum/kiswahili-7/</loc>
-  <lastmod>2020-12-24T22:07:13+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.fauluhub.com/forum/forum/english-language-8/</loc>
-  <lastmod>2020-12-24T22:07:13+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.fauluhub.com/forum/forum/literature-9/</loc>
-  <lastmod>2020-12-24T22:07:13+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.fauluhub.com/forum/forum/general-studies-10/</loc>
-  <lastmod>2020-12-24T22:07:13+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.fauluhub.com/forum/forum/accounts-11/</loc>
-  <lastmod>2020-12-24T22:07:13+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.fauluhub.com/forum/forum/economics-12/</loc>
-  <lastmod>2020-12-24T22:07:13+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.fauluhub.com/forum/forum/book-keeping-13/</loc>
-  <lastmod>2020-12-24T22:07:13+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.fauluhub.com/forum/forum/agriculture-14/</loc>
-  <lastmod>2020-12-24T22:07:13+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.fauluhub.com/forum/forum/home-economics-15/</loc>
-  <lastmod>2020-12-24T22:07:13+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.fauluhub.com/forum/forum/computer-16/</loc>
-  <lastmod>2020-12-24T22:07:13+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.fauluhub.com/forum/forum/civics-18/</loc>
-  <lastmod>2020-12-24T22:07:13+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.fauluhub.com/forum/forum/french-19/</loc>
-  <lastmod>2020-12-24T22:07:13+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.fauluhub.com/forum/forum/music-20/</loc>
-  <lastmod>2020-12-24T22:07:13+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.fauluhub.com/blog/how-to-pass-necta-exams100-comfirmed/</loc>
-  <lastmod>2020-12-24T22:07:13+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.fauluhub.com/accounts/password/reset/</loc>
-  <lastmod>2020-12-24T22:07:13+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.fauluhub.com/forum/forum/relationship-17/topic/testing-email-shit-1/</loc>
-  <lastmod>2020-12-24T22:07:13+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.fauluhub.com/forum/member/profile/2/</loc>
-  <lastmod>2020-12-24T22:07:13+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.fauluhub.com/forum/member/profile/5/posts/</loc>
-  <lastmod>2020-12-24T22:07:13+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.fauluhub.com/forum/forum/relationship-17/topic/testing-email-shit-1/?post=1</loc>
-  <lastmod>2020-12-24T22:07:13+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.fauluhub.com/forum/forum/relationship-17/topic/testing-email-shit-1/?post=2</loc>
-  <lastmod>2020-12-24T22:07:13+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.fauluhub.com/forum/member/profile/4/</loc>
-  <lastmod>2020-12-24T22:07:13+00:00</lastmod>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.fauluhub.com/forum/member/profile/2/posts/</loc>
-  <lastmod>2020-12-24T22:07:13+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-<url>
-  <loc>https://www.fauluhub.com/forum/member/profile/4/posts/</loc>
-  <lastmod>2020-12-24T22:07:13+00:00</lastmod>
-  <priority>0.41</priority>
-</url>
-
-
+  <url>
+       <loc>https://www.fauluhub.com/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>1.0000</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/course/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/exams/exams-list/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/notes/notes-list/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/forum/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/blog</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/contact/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/notes/notes-list/introduction-to-biology/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/notes/notes-list/safety-in-our-environment/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/notes/notes-list/cell-structure-and-organization/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/notes/notes-list/classification-of-living-things/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/notes/notes-list/classification-of-living-things-formtwo/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/notes/notes-list/nutrition/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/notes/notes-list/balance-of-nature/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/notes/notes-list/transportation-of-materials-in-living-things/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/notes/notes-list/gaseous-exchange-and-respiration/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/notes/notes-list/classification-of-living-things-form-three/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/notes/notes-list/movement/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/notes/notes-list/coordination/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/notes/notes-list/excretion/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/notes/notes-list/regulation/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/notes/notes-list/reproduction/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/notes/notes-list/growth/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/notes/notes-list/genetics/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/notes/notes-list/evolution/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/notes/notes-list/classification-of-living-things-form-four/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/notes/notes-list/hiv-and-aids-and-stds/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/notes/notes-list/introduction-to-physics/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/notes/notes-list/introduction-to-laboratory-rules-and-safety/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/notes/notes-list/measurement/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/notes/notes-list/force/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/notes/notes-list/archimedes-principle-and-law-of-flotation/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/notes/notes-list/structure-and-properties-of-matter/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/notes/notes-list/pressure/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/notes/notes-list/work-energy-and-power/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/notes/notes-list/light/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/notes/notes-list/static-electricity/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/notes/notes-list/current-electricity/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/notes/notes-list/magnetism/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/notes/notes-list/forces-in-equilibrum/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/notes/notes-list/simple-machines/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/notes/notes-list/motion-in-straight-line/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/notes/notes-list/temperature/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/notes/notes-list/sustainable-energy-sources/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/notes/notes-list/applications-of-vectors/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/notes/notes-list/friction/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/notes/notes-list/optical-instruments/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/notes/notes-list/thermal-expansion/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/forum/search/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/accounts/login/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/accounts/signup/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/forum/forum/relationship-17/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/forum/feeds/forum/relationship-17/topics/all/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/forum/member/profile/5/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/forum/forum/relationship-17/topic/testing-email-shit-1/?post=3</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/forum/forum/physics-1/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/forum/feeds/forum/physics-1/topics/all/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/forum/forum/chemistry-2/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/forum/feeds/forum/chemistry-2/topics/all/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/forum/forum/mathematics-3/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/forum/feeds/forum/mathematics-3/topics/all/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/forum/forum/geography-4/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/forum/feeds/forum/geography-4/topics/all/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/forum/forum/biology-5/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/forum/feeds/forum/biology-5/topics/all/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/forum/forum/history-6/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/forum/feeds/forum/history-6/topics/all/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/forum/forum/kiswahili-7/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/forum/feeds/forum/kiswahili-7/topics/all/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/forum/forum/english-language-8/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/forum/feeds/forum/english-language-8/topics/all/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/forum/forum/literature-9/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/forum/feeds/forum/literature-9/topics/all/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/forum/forum/general-studies-10/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/forum/feeds/forum/general-studies-10/topics/all/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/forum/forum/accounts-11/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/forum/feeds/forum/accounts-11/topics/all/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/forum/forum/economics-12/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/forum/feeds/forum/economics-12/topics/all/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/forum/forum/book-keeping-13/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/forum/feeds/forum/book-keeping-13/topics/all/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/forum/forum/agriculture-14/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/forum/feeds/forum/agriculture-14/topics/all/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/forum/forum/home-economics-15/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/forum/feeds/forum/home-economics-15/topics/all/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/forum/forum/computer-16/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/forum/feeds/forum/computer-16/topics/all/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/forum/forum/civics-18/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/forum/feeds/forum/civics-18/topics/all/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/forum/forum/french-19/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/forum/feeds/forum/french-19/topics/all/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/forum/forum/music-20/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/forum/feeds/forum/music-20/topics/all/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/blog/how-to-pass-necta-exams100-comfirmed/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.6400</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/accounts/password/reset/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.5120</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/forum/forum/relationship-17/topic/testing-email-shit-1/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.5120</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/forum/member/profile/2/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.5120</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/forum/member/profile/5/posts/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.5120</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/forum/forum/relationship-17/topic/testing-email-shit-1/?post=1</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.5120</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/forum/forum/relationship-17/topic/testing-email-shit-1/?post=2</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.5120</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/forum/member/profile/4/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.5120</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/forum/member/profile/2/posts/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.4096</priority>
+  </url>
+  <url>
+       <loc>https://www.fauluhub.com/forum/member/profile/4/posts/</loc>
+       <lastmod>2020-12-28T12:51:39+00:00</lastmod>
+       <changefreq>daily</changefreq>
+       <priority>0.4096</priority>
+  </url>
 </urlset>
