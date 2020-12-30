@@ -18,9 +18,9 @@ class BlogPageList(ListView):
 
   def get_queryset(self, *args, **kwargs):
     if self.kwargs:
-      return Post.objects.filter(status='Published').order_by('-created')
+      return Post.objects.filter(status='published').order_by('-created')
     else:
-      query = Post.objects.all().order_by('-created')
+      query = Post.objects.filter(status='published').order_by('-created')
       return query
 
 def detail(request, slug):
