@@ -49,19 +49,7 @@ provides Blog Articles to guide learners.">
 <!—- ShareThis END -—>
 </head>
 <body>
-<!--Start of Tawk.to Script-->
-<script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/5fec6215df060f156a922892/1eqplub5o';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script>
-<!--End of Tawk.to Script-->
+
 {% if messages %}<br>
 <div style="font-size:13px;" class="col-md-12 text-center mt-0 pt-0">
   {% for message in messages %}
@@ -346,6 +334,8 @@ s0.parentNode.insertBefore(s1,s0);
     <script src="{% static 'js/assets/revolution/revolution.js' %}"></script>
     <script src="{% static 'js/custom.js' %}"></script>  
     
-   
+   <!--Add the following script at the bottom of the web page (before </body></html>)-->
+<script type="text/javascript">function add_chatinline(){var hccid=93411455;var nt=document.createElement("script");nt.async=true;nt.src="https://mylivechat.com/chatinline.aspx?hccid="+hccid;var ct=document.getElementsByTagName("script")[0];ct.parentNode.insertBefore(nt,ct);}
+add_chatinline();</script>
 </body>
 </html>
