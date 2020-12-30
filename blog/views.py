@@ -20,7 +20,7 @@ class BlogPageList(ListView):
     if self.kwargs:
       return Post.objects.filter(status='published').order_by('-created')
     else:
-      query = Post.objects.filter(status='published').order_by('-created')
+      query = Post.objects.filter(status='Published').order_by('-created')
       return query
 
 def detail(request, slug):
