@@ -18,7 +18,7 @@ def contactView(request):
             email = form.cleaned_data['email']
             message = form.cleaned_data['message']
             message = form.cleaned_data['message']
-            contact_message = f'User  "{name}" with the email {email}, just contacted you and left a message  "{message}". please contact him as soon as possible'
+            contact_message = f'User  "{name}" with the email {email}, just contacted you and left a message  "{message}". Please contact him as soon as possible.'
             form.save()
             try:
                send_mail(subject, contact_message, settings.EMAIL_HOST_USER, ['tuke.luqman@gmail.com'], settings.FAIL_SILENTLY)
