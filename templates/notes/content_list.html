@@ -216,7 +216,6 @@ provides Blog Articles to guide learners.">
     </div>
 </section><!-- End Our Blog -->
 {% endblock body %}
-<!-- Footer -->
   <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
 <script>
     const options = {
@@ -241,7 +240,7 @@ provides Blog Articles to guide learners.">
             <div class="row">
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="footer_single_col footer_intro">
-                        <img src="{% static 'images/logo.png' %}" alt="faulu hub" class="f_logo">
+                        <img src="{% static 'images/logo.jpg' %}" alt="faulu hub" class="f_logo">
                         <p>FAULU HUB is a free learning platform that provides Notes, exams, videos and Discussion forum for students. Also weekly articles to help guide them.</p>
                     </div>
                 </div>
@@ -249,20 +248,20 @@ provides Blog Articles to guide learners.">
                     <div class="footer_single_col">
                         <h3>Useful Links</h3>
                         <ul class="location_info quick_inf0">
-                            
+
                             <li><a href="{% url 'content_list' %}">Notes</a></li>
                             <li><a href="{% url 'forum:index' %}" class="nav-link">Discussion</a></li>
                             <li><a href="{% url 'exam_list' %}" class="nav-link">Exams</a></li>
                             <li><a href="{% url 'construction' %}" class="nav-link">Videos</a></li>
-                            
-                        </ul>                         
+
+                        </ul>
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-2">
                     <div class="footer_single_col information">
                         <h3>Useful Links</h3>
                         <ul class="quick_inf0">
-                        
+
                             <li><a href="{% url 'page_list' %}" class="nav-link">Blog</a></li>
                             <li><a href="{% url 'contact' %}" class="nav-link">Contact</a></li>
                             <li><a href="{% url 'home' %}">Home</a></li>
@@ -274,7 +273,7 @@ provides Blog Articles to guide learners.">
                         <h3>Contact Us</h3>
                         <p>Contact us to give us any suggestion, feedback or anything though our <a href="{% url 'contact' %}" class="nav-link">Contact Us page</a> or through.</p>
                         <div class="contact_info">
-                            <span>+255 758 585 847</span> 
+                            <span>+255 758 585 847</span>
                             <span class="email">admin@fauluhub.com</span>
                         </div>
                         <ul class="social_items d-flex list-unstyled">
@@ -293,9 +292,9 @@ provides Blog Articles to guide learners.">
         </div>
     </div>
     <div class="shapes_bg">
-        <img src="{% static 'images/shapes/testimonial_2_shpe_1.png' %}" alt="faulu hub" class="shape_3">        
+        <img src="{% static 'images/shapes/testimonial_2_shpe_1.png' %}" alt="faulu hub" class="shape_3">
         <img src="{% static 'images/shapes/footer_2.png' %}" alt="faulu hub" class="shape_1' %}">
-    </div>    
+    </div>
 </footer><!-- End Footer -->
 
 <section id="scroll-top" class="scroll-top">
@@ -309,29 +308,29 @@ provides Blog Articles to guide learners.">
     <script src="{% static 'js/jquery-3.2.1.min.js' %}"></script>
     <script src="{% static 'js/popper.min.js' %}"></script>
     <script src="{% static 'js/bootstrap.min.js' %}"></script>
-    <!-- Revolution Slider -->
-    <script src="{% static 'js/assets/revolution/jquery.themepunch.revolution.min.js' %}"></script>
-    <script src="{% static 'js/assets/revolution/jquery.themepunch.tools.min.js' %}"></script> 
-    <script src="{% static 'js/jquery.magnific-popup.min.js' %}"></script>     
-    <script src="{% static 'js/owl.carousel.min.js' %}"></script>   
-    <script src="{% static 'js/slick.min.js' %}"></script>   
-    <script src="{% static 'js/jquery.meanmenu.min.js' %}"></script>   
-    <script src="{% static 'js/wow.min.js' %}"></script> 
+<!--    &lt;!&ndash; Revolution Slider &ndash;&gt;-->
+<!--    <script src="{% static 'js/assets/revolution/jquery.themepunch.revolution.min.js' %}"></script>-->
+<!--    <script src="{% static 'js/assets/revolution/jquery.themepunch.tools.min.js' %}"></script>-->
+<!--    <script src="{% static 'js/jquery.magnific-popup.min.js' %}"></script>-->
+<!--    <script src="{% static 'js/owl.carousel.min.js' %}"></script>-->
+    <script src="{% static 'js/slick.min.js' %}"></script>
+    <script src="{% static 'js/jquery.meanmenu.min.js' %}"></script>
+    <script src="{% static 'js/wow.min.js' %}"></script>
     <!-- Counter Script -->
     <script src="{% static 'js/waypoints.min.js' %}"></script>
     <script src="{% static 'js/jquery.counterup.min.js' %}"></script>
 
-    <!-- Revolution Extensions -->
-    <script src="{% static 'js/assets/revolution/extensions/revolution.extension.actions.min.js' %}"></script>
-    <script src="{% static 'js/assets/revolution/extensions/revolution.extension.carousel.min.js' %}"></script>
-    <script src="{% static 'js/assets/revolution/extensions/revolution.extension.kenburn.min.js' %}"></script>
-    <script src="{% static 'js/assets/revolution/extensions/revolution.extension.layeranimation.min.js' %}"></script>
-    <script src="{% static 'js/assets/revolution/extensions/revolution.extension.migration.min.js' %}"></script>
-    <script src="{% static 'js/assets/revolution/extensions/revolution.extension.navigation.min.js' %}"></script>
-    <script src="{% static 'js/assets/revolution/extensions/revolution.extension.parallax.min.js' %}"></script>
-    <script src="{% static 'js/assets/revolution/extensions/revolution.extension.slideanims.min.js' %}"></script>
-    <script src="{% static 'js/assets/revolution/extensions/revolution.extension.video.min.js' %}"></script>
-    <script src="{% static 'js/assets/revolution/revolution.js' %}"></script>
+<!--    &lt;!&ndash; Revolution Extensions &ndash;&gt;-->
+<!--    <script src="{% static 'js/assets/revolution/extensions/revolution.extension.actions.min.js' %}"></script>-->
+<!--    <script src="{% static 'js/assets/revolution/extensions/revolution.extension.carousel.min.js' %}"></script>-->
+<!--    <script src="{% static 'js/assets/revolution/extensions/revolution.extension.kenburn.min.js' %}"></script>-->
+<!--    <script src="{% static 'js/assets/revolution/extensions/revolution.extension.layeranimation.min.js' %}"></script>-->
+<!--    <script src="{% static 'js/assets/revolution/extensions/revolution.extension.migration.min.js' %}"></script>-->
+<!--    <script src="{% static 'js/assets/revolution/extensions/revolution.extension.navigation.min.js' %}"></script>-->
+<!--    <script src="{% static 'js/assets/revolution/extensions/revolution.extension.parallax.min.js' %}"></script>-->
+<!--    <script src="{% static 'js/assets/revolution/extensions/revolution.extension.slideanims.min.js' %}"></script>-->
+<!--    <script src="{% static 'js/assets/revolution/extensions/revolution.extension.video.min.js' %}"></script>-->
+<!--    <script src="{% static 'js/assets/revolution/revolution.js' %}"></script>-->
     <script src="{% static 'js/custom.js' %}"></script>  
     
    <!--Add the following script at the bottom of the web page (before </body></html>)-->
