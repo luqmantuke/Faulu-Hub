@@ -24,7 +24,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '9(9f9d^dxp$_*@zw=cj%2bunoi@#%04i4w39+st($we6!r=ay2'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
@@ -224,9 +224,9 @@ ACCOUNT_EMAIL_VERIFICATION = 'none'
 LOGIN_REDIRECT_URL = 'forum:index'
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'smtp.mailgun.org'
-EMAIL_HOST_USER = 'postmaster@fauluhub.com'
-EMAIL_HOST_PASSWORD = '75f9702e742090b280b8d29aa3935897-b6190e87-742a09f1'
+EMAIL_HOST = 'mail.privateemail.com'
+EMAIL_HOST_USER = 'admin@fauluhub.com'
+EMAIL_HOST_PASSWORD = '3QcQFiM!k6ct!88#TVw3'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 FAIL_SILENTLY = False
