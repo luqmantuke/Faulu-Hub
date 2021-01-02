@@ -223,7 +223,7 @@ ACCOUNT_EMAIL_VERIFICATION = 'none'
 
 LOGIN_REDIRECT_URL = 'forum:index'
 
-EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 DEFAULT_FROM_EMAIL = 'admin@fauluhub.com'
 EMAIL_HOST = 'mail.privateemail.com'
 EMAIL_HOST_USER = 'admin@fauluhub.com'

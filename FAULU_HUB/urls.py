@@ -18,32 +18,9 @@ from django.urls import path, include
 from django.contrib.auth import views as auth_views
 from courses.views import CourseListView
 from machina import urls as machina_urls
-from allauth.account import views as allauth_views
-from django.contrib.auth.decorators import login_required
-from django.urls import reverse_lazy
+
 
 from django.views.generic import TemplateView
-
-# notes_dict = {
-#     'queryset': Content.objects.all(),
-#     'date_field': 'created'
-# }
-#
-# exams_dict = {
-#     'queryset': ExamContent.objects.all(),
-#     'date_field': 'created'
-# }
-#
-# blog_dict = {
-#     'queryset': Post.objects.filter(status='Published'),
-#     'date_field': 'created'
-# }
-#
-# sitemaps = {
-#     'notes': GenericSitemap(notes_dict, priority=0.6, protocol='https'),
-#     'exams': GenericSitemap(exams_dict, priority=0.6, protocol='https'),
-#     'blog': GenericSitemap(blog_dict, priority=0.6, protocol='https'),
-# }
 
 urlpatterns = [
     path('vaultadmins/', admin.site.urls),
