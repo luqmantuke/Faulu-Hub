@@ -18,6 +18,9 @@ from django.urls import path, include
 from django.contrib.auth import views as auth_views
 from courses.views import CourseListView
 from machina import urls as machina_urls
+from allauth.account import views as allauth_views
+from django.contrib.auth.decorators import login_required
+from django.urls import reverse_lazy
 
 from django.views.generic import TemplateView
 
@@ -52,7 +55,9 @@ urlpatterns = [
     path('', include('blog.urls')),
     path('forum/', include(machina_urls)),
     path('students/', include('students.urls')),
+
     path('accounts/', include('allauth.urls')),
+
     path("sitemap.xml/", TemplateView.as_view(template_name="sitemap.xml"),),
     path('robots.txt/', TemplateView.as_view(template_name="robots.txt", content_type="text/plain"),),
 ]
