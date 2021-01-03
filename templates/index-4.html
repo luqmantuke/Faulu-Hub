@@ -269,7 +269,7 @@ provides Blog Articles to guide learners.">
                     <div class="courses_info_wrapper">
                         <div class="courses_title">
                             <h3><a href="{% url 'post_detail' article.slug %}">{{ article.name }}</a></h3>
-                            <div class="teachers_name">Teacher - {{ article.author }}</div>
+                            <div class="teachers_name">Author - {{ article.author }}</div>
                         </div>
                         <div class="courses_info">
                             <ul class="list-unstyled">
@@ -594,7 +594,7 @@ provides Blog Articles to guide learners.">
   <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
 <script>
     const options = {
-          bottom: '80px', // default: '32px'
+          bottom: '300px', // default: '32px'
           right: '32px', // default: '32px'
           left: 'unset', // default: 'unset'
           time: '0.3s', // default: '0.3s'

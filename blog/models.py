@@ -10,6 +10,7 @@ from ckeditor.fields import RichTextField
 
 class Post(models.Model):
     STATUS_CHOICES = (('Draft', 'draft'), ('Published', 'published'))
+    POPULARITY_CHOICE = (('Popular', 'popular'), ('Normal', 'normal'))
     name = models.CharField(max_length=250, null=True)
     slug = models.SlugField(max_length=250, blank=True)
     author = models.ForeignKey(User, on_delete=models.CASCADE, related_name='author')
@@ -19,6 +20,7 @@ class Post(models.Model):
     created = models.DateTimeField(auto_now_add=True)
     updated = models.DateTimeField(auto_now=True)
     status = models.CharField(max_length=20, choices=STATUS_CHOICES)
+    popular = models.CharField(max_length=20, choices=POPULARITY_CHOICE, null=True)
 
     
     def get_absolute_url(self):

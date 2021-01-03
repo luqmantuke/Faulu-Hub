@@ -162,14 +162,105 @@ provides Blog Articles to guide learners.">
                             </div>
                             </div>
 
-                                  
-            
         </div>
     </div>
             </div>
+
+
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4 blog_wrapper_right ">
+                    <div class="blog-right-items">
+
+
+
+
+                    <div class="recent_post_wrapper popular_courses_post widget_single">
+                        <div class="items-title">
+                            <h3 class="title">Our Recent Posts.</h3>
+                        </div>
+                        {% for article in posts %}
+                        <div class="single-post">
+                            <div class="recent_img">
+                                 <a href="{% url 'post_detail' article.slug %}" title="" alt="{{ article.name }}"><img src="{{ article.image.url }}" alt="" class="img-fluid"></a>
+                            </div>
+                            <div class="post_title">
+                                <a href="{% url 'post_detail' article.slug %}" title=""  alt="{{ article.name }}">{{ article.name }}</a>
+
+                            </div>
+                        </div>
+                        {% endfor %}
+
+                    </div>
+
+                         <div class="recent_post_wrapper popular_courses_post widget_single">
+                        <div class="items-title">
+                            <h3 class="title">Our Popular Posts.</h3>
+                        </div>
+                        {% for article in popular %}
+                        <div class="single-post">
+                            <div class="recent_img">
+                                 <a href="{% url 'post_detail' article.slug %}" title="" alt="{{ article.name }}"><img src="{{ article.image.url }}" alt="" class="img-fluid"></a>
+                            </div>
+                            <div class="post_title">
+                                <a href="{% url 'post_detail' article.slug %}" title=""  alt="{{ article.name }}">{{ article.name }}</a>
+
+                            </div>
+                        </div>
+                        {% endfor %}
+
+                    </div>
+
+                    <div class="get_discount widget_single">
+                        <div class="items-title">
+                            <img src="https://fauluhub-bucket.s3.amazonaws.com/advertisement.jpg" alt="advertise" class="img-fluid">
+                            <a href="{% url 'contact' %}" title="">CONTACT US</a>
+                        </div>
+
+                        <img src="{% static 'images/shapes/testimonial_2_shpe_2.png' %}" alt="" class="courses_feaures_shpe">
+                    </div>
+
+                    <div class="archives widget_single">
+                        <div class="items-title">
+
+                            <h3 class="title">A-LEVEL BOOKS</h3>
+                            <p>Download popular A-LEVEL BOOKS for FREE.</p>
+
+                        </div>
+                        <div class="archives-items">
+                            <ul class="list-unstyled">
+                                <li><a href="#" title="">Art & Design </a></li>
+                                <li><a href="#" title="">Busness</a></li>
+                                <li><a href="#" title="">IT & Software</a></li>
+                                <li><a href="#" title="">Languages</a></li>
+                                <li><a href="#" title="">Programming</a></li>
+                                <li><a href="#" title="">Technology</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- End Right Sidebar-->
+
         </div>
     </div>
 </section><!-- ./ End  Blog Wrapper-->
+     <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+<script>
+    const options = {
+          bottom: '300px', // default: '32px'
+          right: '32px', // default: '32px'
+          left: 'unset', // default: 'unset'
+          time: '0.3s', // default: '0.3s'
+          mixColor: '#fff', // default: '#fff'
+          backgroundColor: '#fff',  // default: '#fff'
+          buttonColorDark: '#100f2c',  // default: '#100f2c'
+          buttonColorLight: '#fff', // default: '#fff'
+          saveInCookies: false, // default: true,
+          label: '🌓', // default: ''
+          autoMatchOsTheme: true // default: true
+    }
+    const darkmode = new Darkmode(options);
+    darkmode.showWidget();
+</script>
+
 
 <footer class="footer_2">
     <div class="container">
@@ -202,6 +293,7 @@ provides Blog Articles to guide learners.">
                             <li><a href="{% url 'page_list' %}" class="nav-link">Blog</a></li>
                             <li><a href="{% url 'contact' %}" class="nav-link">Contact</a></li>
                             <li><a href="{% url 'home' %}">Home</a></li>
+                            <li><a href="{% url 'privacy' %}">Terms & Privacy</a></li>
                         </ul>
                     </div>
                 </div>
@@ -268,9 +360,9 @@ provides Blog Articles to guide learners.">
 <!--    <script src="{% static 'js/assets/revolution/extensions/revolution.extension.slideanims.min.js' %}"></script>-->
 <!--    <script src="{% static 'js/assets/revolution/extensions/revolution.extension.video.min.js' %}"></script>-->
 <!--    <script src="{% static 'js/assets/revolution/revolution.js' %}"></script>-->
-    <script src="{% static 'js/custom.js' %}"></script>  
-    
-   <!--Add the following script at the bottom of the web page (before </body></html>)-->
+    <script src="{% static 'js/custom.js' %}"></script>
+
+<!--Add the following script at the bottom of the web page (before </body></html>)-->
 <script type="text/javascript">function add_chatinline(){var hccid=93411455;var nt=document.createElement("script");nt.async=true;nt.src="https://mylivechat.com/chatinline.aspx?hccid="+hccid;var ct=document.getElementsByTagName("script")[0];ct.parentNode.insertBefore(nt,ct);}
 add_chatinline();</script>
 </body>

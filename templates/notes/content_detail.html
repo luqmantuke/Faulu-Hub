@@ -177,48 +177,43 @@ provides Blog Articles to guide learners.">
 
                     <div class="recent_post_wrapper popular_courses_post widget_single">
                         <div class="items-title">
-                            <h3 class="title">Our Popular Courses</h3>
+                            <h3 class="title">Our Recent Posts.</h3>
                         </div>
+                        {% for article in post %}
                         <div class="single-post">
                             <div class="recent_img">
-                                 <a href="#" title=""><img src="images/blog/blog_1.jpg" alt="" class="img-fluid"></a>
+                                 <a href="{% url 'post_detail' article.slug %}" title="" alt="{{ article.name }}"><img src="{{ article.image.url }}" alt="" class="img-fluid"></a>
                             </div>
                             <div class="post_title">
-                                <a href="#" title="">How to Become Master In CSS within qa Week.</a>
-                                <div class="courses_price">
-                                    <div class="price"><span><del>74$</del></span> <span class="new_price">49$</span></div>
-                                </div>
-                            </div>
-                        </div>
+                                <a href="{% url 'post_detail' article.slug %}" title=""  alt="{{ article.name }}">{{ article.name }}</a>
 
-                        <div class="single-post">
-                            <div class="recent_img">
-                                <a href="#" title=""><img src="images/blog/blog_2.jpg" alt="" class="img-fluid"></a>
-                            </div>
-                            <div class="post_title">
-                                <a href="#" title="">Connecting volunteers & nonprofitsz worldwide.</a>
-                                <div class="courses_price">
-                                    <div class="price"><span><del>60$</del></span> <span class="new_price">38$</span></div>
-                                </div>
                             </div>
                         </div>
+                        {% endfor %}
 
+                    </div>
+
+                         <div class="recent_post_wrapper popular_courses_post widget_single">
+                        <div class="items-title">
+                            <h3 class="title">Our Popular Posts.</h3>
+                        </div>
+                        {% for article in popular %}
                         <div class="single-post">
                             <div class="recent_img">
-                                <a href="#" title=""><img src="images/blog/blog_3.jpg" alt="" class="img-fluid"></a>
+                                 <a href="{% url 'post_detail' article.slug %}" title="" alt="{{ article.name }}"><img src="{{ article.image.url }}" alt="" class="img-fluid"></a>
                             </div>
                             <div class="post_title">
-                                <a href="#" title="">Research of Learn training process</a>
-                                <div class="courses_price">
-                                    <div class="price"><span class="new_price">79$</span></div>
-                                </div>
+                                <a href="{% url 'post_detail' article.slug %}" title=""  alt="{{ article.name }}">{{ article.name }}</a>
+
                             </div>
                         </div>
+                        {% endfor %}
+
                     </div>
 
                     <div class="get_discount widget_single">
                         <div class="items-title">
-                            <img src="{% static 'images/advertise.jpg" alt="advertise" class="img-fluid">
+                            <img src="https://fauluhub-bucket.s3.amazonaws.com/advertisement.jpg" alt="advertise" class="img-fluid">
                             <a href="{% url 'contact' %}" title="">CONTACT US</a>
                         </div>
 
@@ -252,7 +247,7 @@ provides Blog Articles to guide learners.">
      <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
 <script>
     const options = {
-          bottom: '80px', // default: '32px'
+          bottom: '300px', // default: '32px'
           right: '32px', // default: '32px'
           left: 'unset', // default: 'unset'
           time: '0.3s', // default: '0.3s'

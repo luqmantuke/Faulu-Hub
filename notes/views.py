@@ -5,7 +5,7 @@ from django.views.generic.detail import DetailView
 from .models import *
 from .filters import NotesFilter
 from django.db.models import Q
-
+from blog.models import Post
 
 def content_list(request):
     notes = Content.objects.all().order_by('order')
@@ -19,13 +19,17 @@ def content_list(request):
 
 def content_detail(request, slug):
     q = Content.objects.filter(slug__iexact = slug)
+    post = Post.objects.filter(status='Published')[0:3]
+    popular = Post.objects.filter(popular='Popular')[0:3]
     if q.exists(): 
         q = q.first()
     else: 
        return render(request, '404.html', status=404)
     
     context = {
-        'content': q
+        'content': q,
+        'post': post,
+        'popular': popular
     }
 
     return render(request, 'notes/content_detail.html', context)

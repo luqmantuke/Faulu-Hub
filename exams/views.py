@@ -4,6 +4,7 @@ from django.views.generic.edit import CreateView, UpdateView, DeleteView
 from django.views.generic.detail import DetailView
 from .models import *
 from .filters import ExamsFilter
+from blog.models import Post
 
 
 def exam_list(request):
@@ -15,15 +16,20 @@ def exam_list(request):
     return render(request, template_name, {'content': notes,
         'myfilter': myFilter})
 
+
 def exam_detail(request, slug):
     q = ExamContent.objects.filter(slug__iexact = slug)
+    post = Post.objects.filter(status='Published')[0:3]
+    popular = Post.objects.filter(popular='Popular')[0:3]
     if q.exists(): 
         q = q.first()
     else: 
        return render(request, '404.html', status=404)
     
     context = {
-        'content': q
+        'content': q,
+        'post': post,
+        'popular': popular
     }
 
     return render(request, 'exams/exam_detail.html', context)
