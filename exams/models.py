@@ -28,7 +28,7 @@ class Form(models.Model):
 
 class Subject(models.Model):
     form = models.ForeignKey(Form, on_delete=models.CASCADE)
-    name = models.CharField(max_length=10)
+    name = models.CharField(max_length=100)
     slug = models.SlugField()
     image = models.ImageField(upload_to='media/subject', null=True)
     
