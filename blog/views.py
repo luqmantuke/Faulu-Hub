@@ -25,6 +25,8 @@ class BlogPageList(ListView):
 
 def detail(request, slug):
     q = Post.objects.filter(slug__iexact = slug)
+    posts = Post.objects.filter(status='Published')[0:3]
+    popular = Post.objects.filter(popular='Popular')[0:3]
     if q.exists(): 
         q = q.first()
     else: 
@@ -32,5 +34,7 @@ def detail(request, slug):
   
     context = {
         'post': q,
+        'posts': posts,
+        'popular': popular
         }
     return render(request, 'blog/post_detail.html', context) 
