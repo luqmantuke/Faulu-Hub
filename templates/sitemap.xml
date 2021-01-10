@@ -1,949 +1,962 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-		<!--	created with www.mysitemapgenerator.com	-->
-		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
 <url>
-	<loc>https://www.fauluhub.com/</loc>
-	<lastmod>2021-01-10T02:54:16+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://www.fauluhub.com/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>1.00</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/course/</loc>
-	<lastmod>2021-01-10T02:54:20+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://www.fauluhub.com/course/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/exams/exams-list/</loc>
-	<lastmod>2021-01-10T02:54:20+01:00</lastmod>
-	<priority>0.6</priority>
+  <loc>https://www.fauluhub.com/exams/exams-list/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/</loc>
-	<lastmod>2021-01-10T02:54:22+01:00</lastmod>
-	<priority>0.6</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/forum/</loc>
-	<lastmod>2021-01-10T02:54:23+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://www.fauluhub.com/forum/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/blog</loc>
-	<lastmod>2021-01-10T02:54:23+01:00</lastmod>
-	<priority>1.0</priority>
+  <loc>https://www.fauluhub.com/blog</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/contact/</loc>
-	<lastmod>2021-01-10T02:54:24+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://www.fauluhub.com/contact/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/blog/how-to-study-for-a-long-time/</loc>
-	<lastmod>2021-01-10T02:54:24+01:00</lastmod>
-	<priority>0.6</priority>
+  <loc>https://www.fauluhub.com/blog/how-to-study-for-a-long-time/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/blog/unanswered-cries-book-analysispdf-download/</loc>
-	<lastmod>2021-01-10T02:54:26+01:00</lastmod>
-	<priority>0.6</priority>
+  <loc>https://www.fauluhub.com/blog/unanswered-cries-book-analysispdf-download/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/blog/three-suitors-one-husband-book-analysispdf-download/</loc>
-	<lastmod>2021-01-10T02:54:25+01:00</lastmod>
-	<priority>0.6</priority>
+  <loc>https://www.fauluhub.com/blog/three-suitors-one-husband-book-analysispdf-download/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/privacy/</loc>
-	<lastmod>2021-01-10T02:54:24+01:00</lastmod>
-	<priority>0.8</priority>
+  <loc>https://www.fauluhub.com/privacy/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/exams/exams-list/history-csee/</loc>
-	<lastmod>2021-01-10T02:54:25+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/exams/exams-list/history-csee/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/exams/exams-list/physics-csee/</loc>
-	<lastmod>2021-01-10T02:54:25+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/exams/exams-list/physics-csee/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/exams/exams-list/basic-mathematics-csee/</loc>
-	<lastmod>2021-01-10T02:54:25+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/exams/exams-list/basic-mathematics-csee/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/exams/exams-list/book-keeping-csee/</loc>
-	<lastmod>2021-01-10T02:54:26+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/exams/exams-list/book-keeping-csee/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/exams/exams-list/chemistry-csee/</loc>
-	<lastmod>2021-01-10T02:54:26+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/exams/exams-list/chemistry-csee/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/exams/exams-list/literature-csee/</loc>
-	<lastmod>2021-01-10T02:54:26+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/exams/exams-list/literature-csee/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/exams/exams-list/biology-csee/</loc>
-	<lastmod>2021-01-10T02:54:27+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/exams/exams-list/biology-csee/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/exams/exams-list/civics-csee/</loc>
-	<lastmod>2021-01-10T02:54:27+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/exams/exams-list/civics-csee/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/exams/exams-list/english-csee/</loc>
-	<lastmod>2021-01-10T02:54:27+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/exams/exams-list/english-csee/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/exams/exams-list/commerce-csee/</loc>
-	<lastmod>2021-01-10T02:54:27+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/exams/exams-list/commerce-csee/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/exams/exams-list/kiswahili-csee/</loc>
-	<lastmod>2021-01-10T02:54:27+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/exams/exams-list/kiswahili-csee/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/exams/exams-list/geography-csee/</loc>
-	<lastmod>2021-01-10T02:54:27+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/exams/exams-list/geography-csee/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/exams/exams-list/ics-csee/</loc>
-	<lastmod>2021-01-10T02:54:28+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/exams/exams-list/ics-csee/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/introduction-to-biology/</loc>
-	<lastmod>2021-01-10T02:54:28+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/introduction-to-biology/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/safety-in-our-environment/</loc>
-	<lastmod>2021-01-10T02:54:29+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/safety-in-our-environment/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/cell-structure-and-organization/</loc>
-	<lastmod>2021-01-10T02:54:28+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/cell-structure-and-organization/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/classification-of-living-things/</loc>
-	<lastmod>2021-01-10T02:54:29+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/classification-of-living-things/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/classification-of-living-things-formtwo/</loc>
-	<lastmod>2021-01-10T02:54:29+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/classification-of-living-things-formtwo/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/nutrition/</loc>
-	<lastmod>2021-01-10T02:54:29+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/nutrition/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/balance-of-nature/</loc>
-	<lastmod>2021-01-10T02:54:29+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/balance-of-nature/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/transportation-of-materials-in-living-things/</loc>
-	<lastmod>2021-01-10T02:54:30+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/transportation-of-materials-in-living-things/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/gaseous-exchange-and-respiration/</loc>
-	<lastmod>2021-01-10T02:54:30+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/gaseous-exchange-and-respiration/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/classification-of-living-things-form-three/</loc>
-	<lastmod>2021-01-10T02:54:30+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/classification-of-living-things-form-three/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/movement/</loc>
-	<lastmod>2021-01-10T02:54:30+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/movement/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/coordination/</loc>
-	<lastmod>2021-01-10T02:54:31+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/coordination/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/excretion/</loc>
-	<lastmod>2021-01-10T02:54:31+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/excretion/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/regulation/</loc>
-	<lastmod>2021-01-10T02:54:31+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/regulation/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/reproduction/</loc>
-	<lastmod>2021-01-10T02:54:32+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/reproduction/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/growth/</loc>
-	<lastmod>2021-01-10T02:54:32+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/growth/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/genetics/</loc>
-	<lastmod>2021-01-10T02:54:32+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/genetics/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/evolution/</loc>
-	<lastmod>2021-01-10T02:54:32+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/evolution/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/classification-of-living-things-form-four/</loc>
-	<lastmod>2021-01-10T02:54:33+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/classification-of-living-things-form-four/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/hiv-and-aids-and-stds/</loc>
-	<lastmod>2021-01-10T02:54:33+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/hiv-and-aids-and-stds/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/introduction-to-physics/</loc>
-	<lastmod>2021-01-10T02:54:33+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/introduction-to-physics/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/introduction-to-laboratory-rules-and-safety/</loc>
-	<lastmod>2021-01-10T02:54:33+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/introduction-to-laboratory-rules-and-safety/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/measurement/</loc>
-	<lastmod>2021-01-10T02:54:34+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/measurement/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/force/</loc>
-	<lastmod>2021-01-10T02:54:33+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/force/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/archimedes-principle-and-law-of-flotation/</loc>
-	<lastmod>2021-01-10T02:54:34+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/archimedes-principle-and-law-of-flotation/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/structure-and-properties-of-matter/</loc>
-	<lastmod>2021-01-10T02:54:34+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/structure-and-properties-of-matter/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/pressure/</loc>
-	<lastmod>2021-01-10T02:54:34+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/pressure/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/work-energy-and-power/</loc>
-	<lastmod>2021-01-10T02:54:34+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/work-energy-and-power/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/light/</loc>
-	<lastmod>2021-01-10T02:54:34+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/light/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/static-electricity/</loc>
-	<lastmod>2021-01-10T02:54:35+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/static-electricity/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/current-electricity/</loc>
-	<lastmod>2021-01-10T02:54:35+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/current-electricity/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/magnetism/</loc>
-	<lastmod>2021-01-10T02:54:35+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/magnetism/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/forces-in-equilibrum/</loc>
-	<lastmod>2021-01-10T02:54:35+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/forces-in-equilibrum/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/simple-machines/</loc>
-	<lastmod>2021-01-10T02:54:35+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/simple-machines/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/motion-in-straight-line/</loc>
-	<lastmod>2021-01-10T02:54:36+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/motion-in-straight-line/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/temperature/</loc>
-	<lastmod>2021-01-10T02:54:36+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/temperature/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/sustainable-energy-sources/</loc>
-	<lastmod>2021-01-10T02:54:36+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/sustainable-energy-sources/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/applications-of-vectors/</loc>
-	<lastmod>2021-01-10T02:54:36+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/applications-of-vectors/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/friction/</loc>
-	<lastmod>2021-01-10T02:54:36+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/friction/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/optical-instruments/</loc>
-	<lastmod>2021-01-10T02:54:37+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/optical-instruments/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/thermal-expansion/</loc>
-	<lastmod>2021-01-10T02:54:37+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/thermal-expansion/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/transfer-of-thermal-energy/</loc>
-	<lastmod>2021-01-10T02:54:37+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/transfer-of-thermal-energy/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/measurement-of-thermal-energy/</loc>
-	<lastmod>2021-01-10T02:54:38+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/measurement-of-thermal-energy/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/vapour-and-humidity/</loc>
-	<lastmod>2021-01-10T02:54:37+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/vapour-and-humidity/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/thermal-current-electricity/</loc>
-	<lastmod>2021-01-10T02:54:37+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/thermal-current-electricity/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/waves/</loc>
-	<lastmod>2021-01-10T02:54:38+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/waves/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/electromagnetism/</loc>
-	<lastmod>2021-01-10T02:54:38+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/electromagnetism/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/radioactivity/</loc>
-	<lastmod>2021-01-10T02:54:38+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/radioactivity/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/thermionic-emmision/</loc>
-	<lastmod>2021-01-10T02:54:38+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/thermionic-emmision/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/electronic/</loc>
-	<lastmod>2021-01-10T02:54:39+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/electronic/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/elementary-astronomy/</loc>
-	<lastmod>2021-01-10T02:54:39+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/elementary-astronomy/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/geophysics/</loc>
-	<lastmod>2021-01-10T02:54:39+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/geophysics/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/sources-and-importance-of-hitory/</loc>
-	<lastmod>2021-01-10T02:54:39+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/sources-and-importance-of-hitory/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/evolution-of-man-technology-and-environment/</loc>
-	<lastmod>2021-01-10T02:54:40+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/evolution-of-man-technology-and-environment/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/development-of-economic-activities-and-their-impact/</loc>
-	<lastmod>2021-01-10T02:54:40+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/development-of-economic-activities-and-their-impact/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/development-of-social-and-political-system/</loc>
-	<lastmod>2021-01-10T02:54:40+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/development-of-social-and-political-system/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/interaction-among-the-people-of-africa/</loc>
-	<lastmod>2021-01-10T02:54:40+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/interaction-among-the-people-of-africa/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/socio-economic-development-in-pre-colonial-africa/</loc>
-	<lastmod>2021-01-10T02:54:41+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/socio-economic-development-in-pre-colonial-africa/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/africa-and-external-world/</loc>
-	<lastmod>2021-01-10T02:54:41+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/africa-and-external-world/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/industrial-capitalism/</loc>
-	<lastmod>2021-01-10T02:54:41+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/industrial-capitalism/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/establishment-of-colonialism/</loc>
-	<lastmod>2021-01-10T02:54:42+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/establishment-of-colonialism/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/colonial-administrative-system/</loc>
-	<lastmod>2021-01-10T02:54:42+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/colonial-administrative-system/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/colonial-economy/</loc>
-	<lastmod>2021-01-10T02:54:42+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/colonial-economy/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/colonial-social-services/</loc>
-	<lastmod>2021-01-10T02:54:42+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/colonial-social-services/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/crisis-in-capitalist-system/</loc>
-	<lastmod>2021-01-10T02:54:42+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/crisis-in-capitalist-system/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/africa-nationalim/</loc>
-	<lastmod>2021-01-10T02:54:43+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/africa-nationalim/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/change-in-political-social-and-economic-policies-in-africa/</loc>
-	<lastmod>2021-01-10T02:54:43+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/change-in-political-social-and-economic-policies-in-africa/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/africa-in-international-affairs/</loc>
-	<lastmod>2021-01-10T02:54:43+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/africa-in-international-affairs/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/concept-of-geography/</loc>
-	<lastmod>2021-01-10T02:54:43+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/concept-of-geography/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/the-solar-system/</loc>
-	<lastmod>2021-01-10T02:54:44+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/the-solar-system/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/major-features-of-the-earths-surface/</loc>
-	<lastmod>2021-01-10T02:54:44+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/major-features-of-the-earths-surface/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/weather/</loc>
-	<lastmod>2021-01-10T02:54:44+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/weather/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/climate/</loc>
-	<lastmod>2021-01-10T02:54:45+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/climate/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/human-activities/</loc>
-	<lastmod>2021-01-10T02:54:44+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/human-activities/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/agriculture/</loc>
-	<lastmod>2021-01-10T02:54:45+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/agriculture/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/water-management-for-economic-development/</loc>
-	<lastmod>2021-01-10T02:54:45+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/water-management-for-economic-development/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/sustainable-use-of-forest-resources/</loc>
-	<lastmod>2021-01-10T02:54:45+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/sustainable-use-of-forest-resources/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/sustainable-mining/</loc>
-	<lastmod>2021-01-10T02:54:46+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/sustainable-mining/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/tourism/</loc>
-	<lastmod>2021-01-10T02:54:46+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/tourism/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/manufacturing-industry/</loc>
-	<lastmod>2021-01-10T02:54:46+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/manufacturing-industry/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/power-energy-and-resources/</loc>
-	<lastmod>2021-01-10T02:54:47+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/power-energy-and-resources/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/transport-and-communication/</loc>
-	<lastmod>2021-01-10T02:54:47+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/transport-and-communication/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/structure-of-the-earth/</loc>
-	<lastmod>2021-01-10T02:54:47+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/structure-of-the-earth/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/force-that-affects-the-earth/</loc>
-	<lastmod>2021-01-10T02:54:47+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/force-that-affects-the-earth/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/soil/</loc>
-	<lastmod>2021-01-10T02:54:47+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/soil/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/elementary-survey-and-map-making/</loc>
-	<lastmod>2021-01-10T02:54:48+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/elementary-survey-and-map-making/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/map-reading-and-interpretation/</loc>
-	<lastmod>2021-01-10T02:54:48+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/map-reading-and-interpretation/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/photograph-reading-and-interpretation/</loc>
-	<lastmod>2021-01-10T02:54:48+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/photograph-reading-and-interpretation/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/application-of-statistics/</loc>
-	<lastmod>2021-01-10T02:54:49+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/application-of-statistics/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/introduction-to-research/</loc>
-	<lastmod>2021-01-10T02:54:49+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/introduction-to-research/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/climate-and-natural-regions/</loc>
-	<lastmod>2021-01-10T02:54:49+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/climate-and-natural-regions/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/human-population/</loc>
-	<lastmod>2021-01-10T02:54:50+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/human-population/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/settlement/</loc>
-	<lastmod>2021-01-10T02:54:50+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/settlement/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/environmental-issues-and-management/</loc>
-	<lastmod>2021-01-10T02:54:50+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/environmental-issues-and-management/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/numbers/</loc>
-	<lastmod>2021-01-10T02:54:50+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/numbers/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/fractions/</loc>
-	<lastmod>2021-01-10T02:54:51+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/fractions/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/decimal-and-percentage/</loc>
-	<lastmod>2021-01-10T02:54:51+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/decimal-and-percentage/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/units/</loc>
-	<lastmod>2021-01-10T02:54:51+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/units/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/approximations/</loc>
-	<lastmod>2021-01-10T02:54:51+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/approximations/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/geometry/</loc>
-	<lastmod>2021-01-10T02:54:51+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/geometry/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/algebra/</loc>
-	<lastmod>2021-01-10T02:54:51+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/algebra/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/number-2/</loc>
-	<lastmod>2021-01-10T02:54:52+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/number-2/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/ratio-profit-and-loss/</loc>
-	<lastmod>2021-01-10T02:54:52+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/ratio-profit-and-loss/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/coordinate-geometry/</loc>
-	<lastmod>2021-01-10T02:54:52+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/coordinate-geometry/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/parameter-and-areas/</loc>
-	<lastmod>2021-01-10T02:54:52+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/parameter-and-areas/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/exponents-and-radicals/</loc>
-	<lastmod>2021-01-10T02:54:53+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/exponents-and-radicals/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/algebra-fj3g/</loc>
-	<lastmod>2021-01-10T02:54:53+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/algebra-fj3g/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/quadratic-equation/</loc>
-	<lastmod>2021-01-10T02:54:53+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/quadratic-equation/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/logarithm/</loc>
-	<lastmod>2021-01-10T02:54:53+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/logarithm/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/congruence/</loc>
-	<lastmod>2021-01-10T02:54:53+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/congruence/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/similarity/</loc>
-	<lastmod>2021-01-10T02:54:54+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/similarity/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/geometric-and-transformation/</loc>
-	<lastmod>2021-01-10T02:54:54+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/geometric-and-transformation/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/pythagoras-theorem/</loc>
-	<lastmod>2021-01-10T02:54:54+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/pythagoras-theorem/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/trigonometry/</loc>
-	<lastmod>2021-01-10T02:54:54+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/trigonometry/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/sets/</loc>
-	<lastmod>2021-01-10T02:54:55+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/sets/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/statistics/</loc>
-	<lastmod>2021-01-10T02:54:54+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/statistics/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/relations/</loc>
-	<lastmod>2021-01-10T02:54:55+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/relations/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/functions/</loc>
-	<lastmod>2021-01-10T02:54:55+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/functions/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/statistics-36xo/</loc>
-	<lastmod>2021-01-10T02:54:55+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/statistics-36xo/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/rates-and-variations/</loc>
-	<lastmod>2021-01-10T02:54:55+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/rates-and-variations/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/sequence-and-series/</loc>
-	<lastmod>2021-01-10T02:54:56+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/sequence-and-series/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/circles/</loc>
-	<lastmod>2021-01-10T02:54:56+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/circles/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/earth-as-a-sphere/</loc>
-	<lastmod>2021-01-10T02:54:56+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/earth-as-a-sphere/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/accounts/</loc>
-	<lastmod>2021-01-10T02:54:56+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/accounts/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/coordinate-geometry-7hj0/</loc>
-	<lastmod>2021-01-10T02:54:57+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/coordinate-geometry-7hj0/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/area-and-perimeter/</loc>
-	<lastmod>2021-01-10T02:54:57+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/area-and-perimeter/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/three-dimensional-figures/</loc>
-	<lastmod>2021-01-10T02:54:57+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/three-dimensional-figures/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/probability/</loc>
-	<lastmod>2021-01-10T02:54:57+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/probability/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/trigonometry-9bfa/</loc>
-	<lastmod>2021-01-10T02:54:58+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/trigonometry-9bfa/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/vectors/</loc>
-	<lastmod>2021-01-10T02:54:58+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/vectors/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/matrices-and-transformation/</loc>
-	<lastmod>2021-01-10T02:54:58+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/matrices-and-transformation/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/notes/notes-list/linear-programming/</loc>
-	<lastmod>2021-01-10T02:54:58+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/notes/notes-list/linear-programming/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/forum/search/</loc>
-	<lastmod>2021-01-10T02:54:58+01:00</lastmod>
-	<priority>0.6</priority>
+  <loc>https://www.fauluhub.com/forum/search/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/accounts/login/</loc>
-	<lastmod>2021-01-10T02:54:59+01:00</lastmod>
-	<priority>0.6</priority>
+  <loc>https://www.fauluhub.com/accounts/login/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/accounts/signup/</loc>
-	<lastmod>2021-01-10T02:54:59+01:00</lastmod>
-	<priority>0.6</priority>
+  <loc>https://www.fauluhub.com/accounts/signup/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/forum/forum/relationship-17/</loc>
-	<lastmod>2021-01-10T02:54:59+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/forum/forum/relationship-17/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/forum/member/profile/5/</loc>
-	<lastmod>2021-01-10T02:54:59+01:00</lastmod>
-	<priority>0.2</priority>
+  <loc>https://www.fauluhub.com/forum/member/profile/5/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/forum/forum/relationship-17/topic/testing-email-shit-1/?post=3</loc>
-	<lastmod>2021-01-10T02:54:59+01:00</lastmod>
-	<priority>0.1</priority>
+  <loc>https://www.fauluhub.com/forum/forum/relationship-17/topic/testing-email-shit-1/?post=3</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/forum/forum/physics-1/</loc>
-	<lastmod>2021-01-10T02:55:01+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/forum/forum/physics-1/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/forum/forum/chemistry-2/</loc>
-	<lastmod>2021-01-10T02:55:00+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/forum/forum/chemistry-2/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/forum/forum/mathematics-3/</loc>
-	<lastmod>2021-01-10T02:55:00+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/forum/forum/mathematics-3/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/forum/forum/geography-4/</loc>
-	<lastmod>2021-01-10T02:55:01+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/forum/forum/geography-4/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/forum/forum/biology-5/</loc>
-	<lastmod>2021-01-10T02:55:01+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/forum/forum/biology-5/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/forum/forum/history-6/</loc>
-	<lastmod>2021-01-10T02:55:02+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/forum/forum/history-6/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/forum/forum/kiswahili-7/</loc>
-	<lastmod>2021-01-10T02:55:02+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/forum/forum/kiswahili-7/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/forum/forum/english-language-8/</loc>
-	<lastmod>2021-01-10T02:55:02+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/forum/forum/english-language-8/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/forum/forum/literature-9/</loc>
-	<lastmod>2021-01-10T02:55:03+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/forum/forum/literature-9/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/forum/forum/general-studies-10/</loc>
-	<lastmod>2021-01-10T02:55:03+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/forum/forum/general-studies-10/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/forum/forum/accounts-11/</loc>
-	<lastmod>2021-01-10T02:55:03+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/forum/forum/accounts-11/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/forum/forum/economics-12/</loc>
-	<lastmod>2021-01-10T02:55:03+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/forum/forum/economics-12/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/forum/forum/book-keeping-13/</loc>
-	<lastmod>2021-01-10T02:55:04+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/forum/forum/book-keeping-13/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/forum/forum/agriculture-14/</loc>
-	<lastmod>2021-01-10T02:55:05+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/forum/forum/agriculture-14/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/forum/forum/home-economics-15/</loc>
-	<lastmod>2021-01-10T02:55:05+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/forum/forum/home-economics-15/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/forum/forum/computer-16/</loc>
-	<lastmod>2021-01-10T02:55:05+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/forum/forum/computer-16/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/forum/forum/civics-18/</loc>
-	<lastmod>2021-01-10T02:55:06+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/forum/forum/civics-18/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/forum/forum/french-19/</loc>
-	<lastmod>2021-01-10T02:55:06+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/forum/forum/french-19/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/forum/forum/music-20/</loc>
-	<lastmod>2021-01-10T02:55:06+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/forum/forum/music-20/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/accounts/password/reset/</loc>
-	<lastmod>2021-01-10T02:55:07+01:00</lastmod>
-	<priority>0.4</priority>
+  <loc>https://www.fauluhub.com/accounts/password/reset/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/forum/forum/relationship-17/topic/testing-email-shit-1/</loc>
-	<lastmod>2021-01-10T02:55:08+01:00</lastmod>
-	<priority>0.1</priority>
+  <loc>https://www.fauluhub.com/forum/forum/relationship-17/topic/testing-email-shit-1/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/forum/member/profile/2/</loc>
-	<lastmod>2021-01-10T02:55:08+01:00</lastmod>
-	<priority>0.2</priority>
+  <loc>https://www.fauluhub.com/forum/member/profile/2/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/forum/forum/relationship-17/topic/testing-email-shit-1/?post=1</loc>
-	<lastmod>2021-01-10T02:55:08+01:00</lastmod>
-	<priority>0.1</priority>
+  <loc>https://www.fauluhub.com/forum/member/profile/5/posts/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/forum/forum/relationship-17/topic/testing-email-shit-1/?post=2</loc>
-	<lastmod>2021-01-10T02:55:08+01:00</lastmod>
-	<priority>0.1</priority>
+  <loc>https://www.fauluhub.com/forum/forum/relationship-17/topic/testing-email-shit-1/?post=1</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/forum/member/profile/4/</loc>
-	<lastmod>2021-01-10T02:55:08+01:00</lastmod>
-	<priority>0.2</priority>
+  <loc>https://www.fauluhub.com/forum/forum/relationship-17/topic/testing-email-shit-1/?post=2</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/forum/member/profile/5/posts/</loc>
-	<lastmod>2021-01-10T02:55:08+01:00</lastmod>
-	<priority>0.1</priority>
+  <loc>https://www.fauluhub.com/forum/member/profile/4/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.51</priority>
 </url>
 <url>
-	<loc>https://www.fauluhub.com/forum/member/profile/2/posts/</loc>
-	<lastmod>2021-01-10T02:55:08+01:00</lastmod>
-	<priority>0.1</priority>
+  <loc>https://www.fauluhub.com/forum/member/profile/2/posts/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.41</priority>
 </url>
+<url>
+  <loc>https://www.fauluhub.com/forum/member/profile/4/posts/</loc>
+  <lastmod>2021-01-10T01:13:01+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+
+
 </urlset>
