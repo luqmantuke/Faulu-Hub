@@ -13,7 +13,7 @@ class Post(models.Model):
     POPULARITY_CHOICE = (('Popular', 'popular'), ('Normal', 'normal'))
     name = models.CharField(max_length=250, null=True)
     slug = models.SlugField(max_length=250, blank=True)
-    author = models.ForeignKey(User, on_delete=models.CASCADE, related_name='author')
+    author = models.ForeignKey(User, on_delete=models.CASCADE, related_name='author', null=True)
     body = RichTextField(blank=True, null=True)
     image = models.FileField(null=True)
     publish = models.DateTimeField(default=timezone.now)

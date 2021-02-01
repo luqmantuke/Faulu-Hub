@@ -8,7 +8,7 @@ from django.urls import reverse_lazy
 from django.conf import settings
 from FAULU_HUB import settings
 from .models import Post
-
+from books.models import Books
 
 class BlogPageList(ListView):
   model = Post
@@ -26,7 +26,10 @@ class BlogPageList(ListView):
 def detail(request, slug):
     q = Post.objects.filter(slug__iexact = slug)
     posts = Post.objects.filter(status='Published')[0:3]
+    popular_books = Books.objects.filter(popular='Popular')[0:3]
     popular = Post.objects.filter(popular='Popular')[0:3]
+    recent_books = Books.objects.all()[0:3]
+
     if q.exists(): 
         q = q.first()
     else: 
@@ -35,6 +38,8 @@ def detail(request, slug):
     context = {
         'post': q,
         'posts': posts,
-        'popular': popular
+         'popular_books': popular_books,
+        'popular': popular,
+        'recent_books': recent_books,
         }
     return render(request, 'blog/post_detail.html', context) 

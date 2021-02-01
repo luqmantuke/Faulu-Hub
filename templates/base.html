@@ -1,15 +1,14 @@
 {% load static %}
-
 <html lang="en">
 <head>
     <!-- Required meta tags -->
     <meta charset="UTF-8">
-    <meta name="description" content="Faulu Hub is a Tanzanian online learning platform providing free study resources such as Notes, NECTA Exams and non-necta Exams and Videos. Also, Faulu Hub
+    <meta name="description" content="Faulu Hub is a Tanzanian online learning platform providing free study resources such as Notes, NECTA Exams and non-necta Exams, Books and Videos. Also, Faulu Hub
 provides Blog Articles to guide learners.">
-    <meta name="keywords" content="Notes, NECTA, Exams, Soma online, faulu hub, videos, free notes, free books, free videos">
+    <meta name="keywords" content="Notes, NECTA, Exams, Soma online, faulu hub, videos, free notes, free books,free books, free videos">
     <meta name="author" content="Faulu Hub">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="google-site-verification" content="E2I-GQLZMrbGgjHaWepuCXIk9MgL0biGNdjE5AuzCI8" />
+	<meta name="google-site-verification" content="E2I-GQLZMrbGgjHaWepuCXIk9MgL0biGNdjE5AuzCI8" />
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-91MSNW8PQP"></script>
 <script>
@@ -19,7 +18,7 @@ provides Blog Articles to guide learners.">
 
   gtag('config', 'G-91MSNW8PQP');
 </script>
-    <title>Faulu Hub</title>
+    <title>{% block title %}Faulu Hub{% endblock title %}</title>
     <link rel="icon" href="{% static 'images/logo.jpg' %}" type="image/jpg">
     <!-- Goole Font -->
     <link href="https://fonts.googleapis.com/css?family=Rubik:400,500,700" rel="stylesheet">
@@ -37,7 +36,7 @@ provides Blog Articles to guide learners.">
     <link rel="stylesheet" href="{% static 'css/assets/animate.css' %}">
     <!-- Slick Carousel -->
     <link rel="stylesheet" href="{% static 'css/assets/slick.css' %}">
-
+<script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/9a7432c6e3972b51a6c3d08a4/9667f16c08a6bae4f529c8bea.js");</script>
 <!--    &lt;!&ndash; Revolution Slider &ndash;&gt;-->
 <!--    <link rel="stylesheet" href="{% static 'css/assets/revolution/layers.css' %}">-->
 <!--    <link rel="stylesheet" href="{% static 'css/assets/revolution/navigation.css' %}">-->
@@ -48,18 +47,12 @@ provides Blog Articles to guide learners.">
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
     <link rel="stylesheet" href="{% static 'css/responsive.css' %}">
     <link rel="stylesheet" href="{% static 'css/demo.css' %}">
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-<!--      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>-->
-<!--      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>-->
-    <![endif]-->
+
     <!—- ShareThis BEGIN -—>
 <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=5fd7d0285be97700184ab697&product=sticky-share-buttons" async="async"></script>
 <!—- ShareThis END -—>
 </head>
 <body>
-
 {% if messages %}<br>
 <div style="font-size:13px;" class="col-md-12 text-center mt-0 pt-0">
   {% for message in messages %}
@@ -89,43 +82,55 @@ provides Blog Articles to guide learners.">
 		</div>
 	</div>
 
+{% with url_name=request.resolver_match.url_name %}
 	<div class="edu_nav">
         <div class="container">
             <nav class="navbar navbar-expand-md navbar-light bg-faded">
                 <a class="navbar-brand" href="#"><img src="{% static 'images/logo.png' %}" alt="logo"></a>
                 <div class="collapse navbar-collapse main-menu" id="navbarSupportedContent">
                     <ul class="navbar-nav nav lavalamp ml-auto menu">
-                        <li class="nav-item"><a href="{% url 'home' %}" class="nav-link">Home</a>
+                        <li class="nav-item"><a href="{% url 'home' %}" class="nav-link {% if url_name == 'home' %} active {%endif%}">Home</a>
 
                         </li>
-                        <li class="nav-item"><a href="{% url 'construction' %}" class="nav-link">Videos</a>
-
-                        </li>
-                        <li class="nav-item"><a href="{% url 'exam_list' %}" class="nav-link">Exams</a>
-
-                        </li>
-                        <li class="nav-item"><a href="{% url 'content_list' %}" class="nav-link">Notes</a>
-
-                        </li>
-                        <li class="nav-item"><a href="{% url 'forum:index' %}" class="nav-link">Discussion</a>
-
-                        </li>
-                        <li class="nav-item"><a href="{% url 'page_list' %}" class="nav-link">Blog</a>
+                        <li class="nav-item"><a href="{% url 'construction' %}" class="nav-link {% if url_name == 'construction' %} active {%endif%}">Videos</a>
 
                         </li>
 
+                        <li class="nav-item"><a href="{% url 'exam_list' %}" class="nav-link {% if url_name == 'exam_list' %} active {%endif%}">Exams</a>
 
-                        <li class="nav-item"><a href="{% url 'contact' %}" class="nav-link">Contact</a></li>
+                        </li>
+
+                        <li class="nav-item"><a href="{% url 'content_list' %}" class="nav-link {% if url_name == 'content_list' %} active {%endif%}">Notes</a>
+
+                        </li>
+
+                        <li class="nav-item"><a href="{% url 'books_list' %}" class="nav-link {% if url_name == 'books_list' %} active {%endif%}">Books</a>
+
+                        </li>
+
+                        <li class="nav-item"><a href="{% url 'forum:index' %}" class="nav-link {% if url_name == 'forum:index' %} active {%endif%}">Discussion</a>
+
+                        </li>
+                        <li class="nav-item"><a href="{% url 'page_list' %}" class="nav-link {% if url_name == 'page_list' %} active {%endif%}">Blog</a>
+
+                        </li>
+
+
+                        <li class="nav-item"><a href="{% url 'contact' %}" class="nav-link {% if url_name == 'contact' %} active {%endif%}">Contact</a></li>
                     </ul>
                 </div>
 
             </nav><!-- END NAVBAR -->
         </div>
     </div>
+{% endwith %}
+
     {% block body %}
     {% endblock body %}
 
-         <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
 <script>
     const options = {
           bottom: '300px', // default: '32px'
@@ -145,13 +150,14 @@ provides Blog Articles to guide learners.">
 </script>
 
 
+<!-- Footer -->
 <footer class="footer_2">
     <div class="container">
         <div class="footer_top">
             <div class="row">
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="footer_single_col footer_intro">
-                        <img src="{% static 'images/logo.jpg' %}" alt="faulu hub" class="f_logo">
+                        <img src="{% static 'images/logo.jpg' %}" alt="faulu hub image" class="f_logo">
                         <p>FAULU HUB is a free learning platform that provides Notes, exams, videos and Discussion forum for students. Also weekly articles to help guide them.</p>
                     </div>
                 </div>
@@ -163,6 +169,7 @@ provides Blog Articles to guide learners.">
                             <li><a href="{% url 'content_list' %}">Notes</a></li>
                             <li><a href="{% url 'forum:index' %}" class="nav-link">Discussion</a></li>
                             <li><a href="{% url 'exam_list' %}" class="nav-link">Exams</a></li>
+                            <li><a href="{% url 'books_list' %}" class="nav-link">Books</a></li>
                             <li><a href="{% url 'construction' %}" class="nav-link">Videos</a></li>
 
                         </ul>
@@ -176,7 +183,7 @@ provides Blog Articles to guide learners.">
                             <li><a href="{% url 'page_list' %}" class="nav-link">Blog</a></li>
                             <li><a href="{% url 'contact' %}" class="nav-link">Contact</a></li>
                             <li><a href="{% url 'home' %}">Home</a></li>
-                            <li><a href="{% url 'privacy' %}">Terms & Privacy</a></li>
+							<li><a href="{% url 'privacy' %}">privacy</a></li>
                         </ul>
                     </div>
                 </div>
@@ -197,15 +204,15 @@ provides Blog Articles to guide learners.">
                 </div>
                  <div class="col-12 col-md-12 col-lg-12">
                     <div class="copyright">
-                      Copyright &copy;2020 This platform was made by  <a target="_blank" href="https://www.instagram.com/smartcodes_tz">Luqman Tuke (smartcodes-tz)</a>
+                      Copyright &copy;2020 This platform was made by  <a target="_blank" href="https://www.luqmantuke.xyz">Luqman Tuke (smartcodes-tz)</a>
                     </div>
                  </div>
             </div>
         </div>
     </div>
     <div class="shapes_bg">
-        <img src="{% static 'images/shapes/testimonial_2_shpe_1.png' %}" alt="faulu hub" class="shape_3">
-        <img src="{% static 'images/shapes/footer_2.png' %}" alt="faulu hub" class="shape_1' %}">
+        <img src="{% static 'images/shapes/testimonial_2_shpe_1.png' %}" alt="faulu hub image" class="shape_3">
+        <img src="{% static 'images/shapes/footer_2.png' %}" alt="faulu hub image" class="shape_1' %}">
     </div>
 </footer><!-- End Footer -->
 
@@ -245,8 +252,9 @@ provides Blog Articles to guide learners.">
 <!--    <script src="{% static 'js/assets/revolution/revolution.js' %}"></script>-->
     <script src="{% static 'js/custom.js' %}"></script>
 
-<!--Add the following script at the bottom of the web page (before </body></html>)-->
+  <!--Add the following script at the bottom of the web page (before </body></html>)-->
 <script type="text/javascript">function add_chatinline(){var hccid=93411455;var nt=document.createElement("script");nt.async=true;nt.src="https://mylivechat.com/chatinline.aspx?hccid="+hccid;var ct=document.getElementsByTagName("script")[0];ct.parentNode.insertBefore(nt,ct);}
 add_chatinline();</script>
+
 </body>
 </html>
