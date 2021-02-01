@@ -23,6 +23,7 @@ class BlogPageList(ListView):
       query = Post.objects.filter(status='Published').order_by('-created')
       return query
 
+
 def detail(request, slug):
     q = Post.objects.filter(slug__iexact = slug)
     posts = Post.objects.filter(status='Published')[0:3]
