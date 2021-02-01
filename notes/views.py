@@ -20,7 +20,7 @@ def content_list(request):
 
 def content_detail(request, slug):
     q = Content.objects.filter(slug__iexact = slug)
-    post = Post.objects.filter(status='Published')[0:3]
+    posts = Post.objects.filter(status='Published')[0:3]
     popular_books = Books.objects.filter(popular='Popular')[0:3]
     popular = Post.objects.filter(popular='Popular')[0:3]
     recent_books = Books.objects.all()[0:3]
@@ -32,7 +32,7 @@ def content_detail(request, slug):
     
     context = {
         'content': q,
-        'post': post,
+        'posts': posts,
         'popular_books': popular_books,
         'popular': popular,
         'recent_books': recent_books,
