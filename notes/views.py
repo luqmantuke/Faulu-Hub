@@ -6,6 +6,7 @@ from .models import *
 from .filters import NotesFilter
 from django.db.models import Q
 from blog.models import Post
+from books.models import Books
 
 def content_list(request):
     notes = Content.objects.all().order_by('order')
@@ -20,7 +21,10 @@ def content_list(request):
 def content_detail(request, slug):
     q = Content.objects.filter(slug__iexact = slug)
     post = Post.objects.filter(status='Published')[0:3]
+    popular_books = Books.objects.filter(popular='Popular')[0:3]
     popular = Post.objects.filter(popular='Popular')[0:3]
+    recent_books = Books.objects.all()[0:3]
+
     if q.exists(): 
         q = q.first()
     else: 
@@ -29,7 +33,9 @@ def content_detail(request, slug):
     context = {
         'content': q,
         'post': post,
-        'popular': popular
+        'popular_books': popular_books,
+        'popular': popular,
+        'recent_books': recent_books,
     }
 
     return render(request, 'notes/content_detail.html', context)

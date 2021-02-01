@@ -1,0 +1,185 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Faulu Hub {{ book.name }}{% endblock title %}
+
+{% block body %}
+    <div class="intro_wrapper">
+        <div class="container">
+            <div class="row">
+                 <div class="col-sm-12 col-md-8 col-lg-8">
+                    <div class="intro_text">
+                        <h1 style="color:black">{{ book.name }}</h1>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</header> <!-- End header -->
+
+
+
+
+
+<section class="blog_wrapper" id="courses_details_wrapper">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-8 col-lg-8">
+                <div class="courses_details">
+                    <div class="single-curses-contert">
+                        <h2>{{ book.name }}</h2>
+                        <div class="review-option">
+                            <div class="teacher-info single_items single_items_shape">
+                                <img src="{% static 'images/logo.png'%}" alt="faulu hub" class="img-fluid">
+
+                            </div>
+
+
+
+                        </div>
+                        <div class="details-img-bxo">
+                        </div>
+                    </div>
+                    <div class="courses_tab_wrapper">
+                        <div class="courses_details_nav_tabs">
+
+                        </div>
+
+                        <!-- Tab panes -->
+                        <div class="tab_contents tab-content">
+                            <div role="tabpanel" class="tab-pane fade in active show" id="information">
+                                {{ book.body|safe }}
+
+                        <script type="text/javascript">
+                        amzn_assoc_placement = "adunit0";
+                        amzn_assoc_search_bar = "true";
+                        amzn_assoc_tracking_id = "fauluhub-20";
+                        amzn_assoc_ad_mode = "manual";
+                        amzn_assoc_ad_type = "smart";
+                        amzn_assoc_marketplace = "amazon";
+                        amzn_assoc_region = "US";
+                        amzn_assoc_title = "My Amazon Picks";
+                        amzn_assoc_linkid = "00ba3d91b7535529a39d8e757d9c259c";
+                        amzn_assoc_asins = "B00P03D4D2,1612680194,1612680208,0451205367,1722500050";
+                        </script>
+                        <script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>
+
+                            </div>
+                            </div>
+
+        </div>
+    </div>
+            </div>
+
+
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4 blog_wrapper_right ">
+                    <div class="blog-right-items">
+
+
+
+
+                    <div class="recent_post_wrapper popular_courses_post widget_single">
+                        <div class="items-title">
+                            <h3 class="title">Our Recent Posts.</h3>
+                        </div>
+                        {% for article in posts %}
+                        <div class="single-post">
+                            <div class="recent_img">
+                                 <a href="{% url 'post_detail' article.slug %}" title="" alt="{{ article.name }}"><img src="{{ article.image.url }}" alt="" class="img-fluid"></a>
+                            </div>
+                            <div class="post_title">
+                                <a href="{% url 'post_detail' article.slug %}" title=""  alt="{{ article.name }}">{{ article.name }}</a>
+
+                            </div>
+                        </div>
+                        {% endfor %}
+
+                    </div>
+
+                        <div class="recent_post_wrapper popular_courses_post widget_single">
+                        <div class="items-title">
+                            <h3 class="title">Our Recent Books.</h3>
+                        </div>
+                        {% for book in recent_books %}
+                        <div class="single-post">
+                            <div class="recent_img">
+                                 <a href="{% url 'book_detail' book.slug %}" title="" alt="{{ book.name }}"><img src="{{ book.image.url }}" alt="" class="img-fluid"></a>
+                            </div>
+                            <div class="post_title">
+                                <a href="{% url 'book_detail'  book.slug %}" title=""  alt="{{ book.name }}">{{ book.name }}</a>
+
+                            </div>
+                        </div>
+                        {% endfor %}
+
+                    </div>
+
+                         <div class="recent_post_wrapper popular_courses_post widget_single">
+                        <div class="items-title">
+                            <h3 class="title">Our Popular Posts.</h3>
+                        </div>
+                        {% for article in popular %}
+                        <div class="single-post">
+                            <div class="recent_img">
+                                 <a href="{% url 'post_detail' article.slug %}" title="" alt="{{ article.name }}"><img src="{{ article.image.url }}" alt="" class="img-fluid"></a>
+                            </div>
+                            <div class="post_title">
+                                <a href="{% url 'post_detail' article.slug %}" title=""  alt="{{ article.name }}">{{ article.name }}</a>
+
+                            </div>
+                        </div>
+                        {% endfor %}
+
+                    </div>
+
+                        <div class="recent_post_wrapper popular_courses_post widget_single">
+                        <div class="items-title">
+                            <h3 class="title">Our Popular Books.</h3>
+                        </div>
+                        {% for book in popular_books %}
+                        <div class="single-post">
+                            <div class="recent_img">
+                                 <a href="{% url 'book_detail' book.slug %}" title="" alt="{{ book.name }}"><img src="{{ book.image.url }}" alt="" class="img-fluid"></a>
+                            </div>
+                            <div class="post_title">
+                                <a href="{% url 'book_detail' book.slug %}" title=""  alt="{{ book.name }}">{{ book.name }}</a>
+
+                            </div>
+                        </div>
+                        {% endfor %}
+
+                    </div>
+
+                    <div class="get_discount widget_single">
+                        <div class="items-title">
+                            <img src="https://fauluhub-bucket.s3.amazonaws.com/advertisement.jpg" alt="advertise" class="img-fluid">
+                            <a href="{% url 'contact' %}" title="">CONTACT US</a>
+                        </div>
+
+                        <img src="{% static 'images/shapes/testimonial_2_shpe_2.png' %}" alt="" class="courses_feaures_shpe">
+
+                    </div>
+
+                    <div class="archives widget_single">
+                        <div class="items-title">
+
+
+                        </div>
+                        <div class="archives-items">
+                            <ul class="list-unstyled">
+                                <li><a href="https://drive.google.com/file/d/1s-_f7YBs2enO-i_i3J_pBALdZxC-IexU/view?usp=sharing" title="">Physics A-level </a></li>
+                                <li><a href="https://drive.google.com/file/d/1HgnYz1Z5-YU42AI5O0iNGJCD6aZXL_z9/view?usp=sharing" title="">Principle Of Accounts </a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- End Right Sidebar-->
+
+        </div>
+    </div>
+</section><!-- ./ End  Blog Wrapper-->
+
+{% endblock body %}

@@ -1,0 +1,105 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Faulu Hub Books{% endblock title %}
+{% block body %}
+
+    <div class="intro_wrapper">
+        <div class="container">
+            <div class="row">
+                 <div class="col-sm-12 col-md-8 col-lg-8">
+                    <div class="intro_text">
+                        <h1 style="color:black">Books</h1>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</header> <!-- End Header -->
+
+
+
+
+
+
+
+<section class="latest_news_2" id="latest_news_style_2">
+    <div class="container">
+        <div class="row">
+            <h2>Please filter the level that you want such as University, A-level, O-level, e.t.c.</h2>
+
+            <div class="container">
+            <div class="row">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+                <form action="" method='get'>
+                {% csrf_token %}
+
+                {{ myfilter.form }}
+            <button type="submit" class="btn btn-primary">Search</button>
+                </form>
+                </div>
+            </div>
+            </div>
+            </div>
+
+
+
+        </div>
+    </div>
+</section>
+
+
+
+<section class="latest_news_2" id="latest_news_style_2">
+    <div class="container">
+        <div class="row">
+         {% for book in books  %}
+            <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+                 <div class="single_item">
+                    <div class="item_wrapper">
+                        <div class="blog-img">
+                            <a href="{% url 'book_detail' book.slug %}" title=""><img src="{{ book.image.url }}" alt="{{ book.name }}" class="img-fluid"></a>
+                        </div>
+                        <h3><a href="{% url 'book_detail' book.slug %}" title="">{{ book.name }}</a></h3>
+                    </div>
+                    <div class="blog_title">
+                        <ul class="post_bloger">
+                            <li><i class="fas fa-calendar-alt"></i> {{ book.created }}</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+        {% if is_paginated %}
+          <div class="pagination_blog">
+                <ul>
+                {% if queryset.has_previous %}
+                    <li><a href="?{{ page_request_var }}={{ page_obj.previous_page_number }}">{{ page_obj.number }}</a></li>
+                {% endif %}
+                {% if page_obj.has_next %}
+                    <li class=""><a href="?{{ page_request_var }}={{ page_obj.next_page_number }}">{{ page_obj.number }}</a></li>
+                {% endif %}
+                </ul>
+            </div>
+        {% endif %}
+
+            <script type="text/javascript">
+amzn_assoc_placement = "adunit0";
+amzn_assoc_search_bar = "true";
+amzn_assoc_tracking_id = "fauluhub-20";
+amzn_assoc_ad_mode = "manual";
+amzn_assoc_ad_type = "smart";
+amzn_assoc_marketplace = "amazon";
+amzn_assoc_region = "US";
+amzn_assoc_title = "My Amazon Picks";
+amzn_assoc_linkid = "00ba3d91b7535529a39d8e757d9c259c";
+amzn_assoc_asins = "B00P03D4D2,1612680194,1612680208,0451205367,1722500050";
+</script>
+<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script>
+
+        </div>
+    </div>
+</section><!-- End Our Blog -->
+
+{% endblock body %}

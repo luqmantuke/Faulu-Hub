@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'exams',
     'blog',
     'contact',
+    'books',
     'ckeditor',
     'bootstrap4',
     'debug_toolbar',
