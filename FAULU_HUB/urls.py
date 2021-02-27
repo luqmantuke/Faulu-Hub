@@ -35,7 +35,7 @@ urlpatterns = [
     path('accounts/', include('allauth.urls')),
 
     path("sitemap.xml/", TemplateView.as_view(template_name="sitemap.xml"),),
-    path('robots.txt/', TemplateView.as_view(template_name="robots.txt", content_type="text/plain"),),
+    path('ads.txt/', TemplateView.as_view(template_name="ads.txt", content_type="text/plain"),),
 ]
 
 
