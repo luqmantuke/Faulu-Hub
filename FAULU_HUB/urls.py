@@ -15,8 +15,6 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-from django.contrib.auth import views as auth_views
-from courses.views import CourseListView
 from machina import urls as machina_urls
 
 
@@ -28,11 +26,11 @@ urlpatterns = [
     path('contact/',  include('contact.urls')),
     path('notes/',  include('notes.urls')),
     path('exams/',  include('exams.urls')),
-    path('course/', include('courses.urls')),
+    path('videos/',  include('videos.urls')),
     path('', include('blog.urls')),
     path('', include('books.urls')),
     path('forum/', include(machina_urls)),
-    path('students/', include('students.urls')),
+
 
     path('accounts/', include('allauth.urls')),
 
@@ -43,7 +41,7 @@ urlpatterns = [
 
 
 
-handler403 = 'courses.views.handler403'
-handler404 = 'courses.views.handler404'
-handler400 = 'courses.views.handler400'
-handler500 = 'courses.views.handler500'
+handler403 = 'home.views.handler403'
+handler404 = 'home.views.handler404'
+handler400 = 'home.views.handler400'
+handler500 = 'home.views.handler500'
