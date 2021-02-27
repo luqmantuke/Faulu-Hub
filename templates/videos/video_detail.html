@@ -1,0 +1,195 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load embed_video_tags %}
+{% block title %}Faulu Hub {{ content.subject }} Videos{% endblock title %}
+
+{% block body %}
+
+    <div class="intro_wrapper">
+        <div class="container">  
+            <div class="row">        
+                 <div class="col-sm-12 col-md-8 col-lg-8">
+                    <div class="intro_text">
+                        <h1 style="color:black">Video Details</h1>
+                    
+                    </div>
+                </div>              
+
+            </div>
+        </div> 
+    </div> 
+</header> <!-- End header -->
+
+
+
+<section class="blog_wrapper" id="courses_details_wrapper">
+    <div class="container">  
+        <div class="row">        
+            <div class="col-12 col-sm-12 col-md-8 col-lg-8">
+                <div class="courses_details">
+                    <div class="single-curses-contert">
+                        <h2>{{ content.name }}</h2>
+                        <div class="review-option">
+                            <div class="teacher-info single_items single_items_shape">
+                                <img src="{% static 'images/logo.png'%}" alt="faulu hub" class="img-fluid">
+                                <div class="teacher-name">
+                                    <span>Subject</span>
+                                    <span>{{ content.subject }}</span>
+					<p style="color:red; font-size:25px">QUICK DISCLAIMER: <br>
+                        WE DON'T OWN ANY OF THE VIDEOS POSTED AND CREDITS SHOULD BE LEFT AS THE OWNERS LICENSE. </p>
+                      <span>  Our Teachers are working hard to upload videos in our channel <a href="https://www.youtube.com/channel/UCSlRNvyqSsrW-ugXE5V35Bg" target="_blank"><button type="submit" class="btn btn-success" >Subscribe Now!!!</button></a></span>
+                                </div>
+                            </div>
+                           
+                         
+
+                        </div>
+                        <div class="details-img-bxo">
+                            <img src="{{ content.image.url }}" alt="faulu hub" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="courses_tab_wrapper">  
+                        <div class="courses_details_nav_tabs">     
+                           
+                        </div>   
+
+                        <!-- Tab panes -->
+                        <div class="tab_contents tab-content">
+                            <div role="tabpanel" class="tab-pane fade in active show" id="information">
+                                {{ content.body|safe }}
+                                {% video content.video '100% x 320' %}
+                            </div>
+<!--                                                         <div role="tabpanel" class="tab-pane fade in active show" id="information"> -->
+
+<!--                                 <script type="text/javascript">
+amzn_assoc_placement = "adunit0";
+amzn_assoc_search_bar = "true";
+amzn_assoc_tracking_id = "fauluhub-20";
+amzn_assoc_search_bar_position = "top";
+amzn_assoc_ad_mode = "search";
+amzn_assoc_ad_type = "smart";
+amzn_assoc_marketplace = "amazon";
+amzn_assoc_region = "US";
+amzn_assoc_title = "Shop Related Products";
+amzn_assoc_default_search_phrase = "Novels";
+amzn_assoc_default_category = "All";
+amzn_assoc_linkid = "5ab2a01457a659168671433148f4e422";
+</script>
+<script src="//z-na.amazon-adsystem.com/widgets/onejs?MarketPlace=US"></script> -->
+<!--                             </div> -->
+
+
+                        </div>
+                    </div>
+                </div>
+            </div> <!--End Blog Siderbar Left-->
+
+
+           <div class="col-12 col-sm-12 col-md-4 col-lg-4 blog_wrapper_right ">
+                    <div class="blog-right-items">
+
+
+
+
+                    <div class="recent_post_wrapper popular_courses_post widget_single">
+                        <div class="items-title">
+                            <h3 class="title">Our Recent Posts.</h3>
+                        </div>
+                        {% for article in posts %}
+                        <div class="single-post">
+                            <div class="recent_img">
+                                 <a href="{% url 'post_detail' article.slug %}" title="" alt="{{ article.name }}"><img src="{{ article.image.url }}" alt="" class="img-fluid"></a>
+                            </div>
+                            <div class="post_title">
+                                <a href="{% url 'post_detail' article.slug %}" title=""  alt="{{ article.name }}">{{ article.name }}</a>
+
+                            </div>
+                        </div>
+                        {% endfor %}
+
+                    </div>
+
+                        <div class="recent_post_wrapper popular_courses_post widget_single">
+                        <div class="items-title">
+                            <h3 class="title">Our Recent Books.</h3>
+                        </div>
+                        {% for book in recent_books %}
+                        <div class="single-post">
+                            <div class="recent_img">
+                                 <a href="{% url 'book_detail' book.slug %}" title="" alt="{{ book.name }}"><img src="{{ book.image.url }}" alt="" class="img-fluid"></a>
+                            </div>
+                            <div class="post_title">
+                                <a href="{% url 'book_detail'  book.slug %}" title=""  alt="{{ book.name }}">{{ book.name }}</a>
+
+                            </div>
+                        </div>
+                        {% endfor %}
+
+                    </div>
+
+                         <div class="recent_post_wrapper popular_courses_post widget_single">
+                        <div class="items-title">
+                            <h3 class="title">Our Popular Posts.</h3>
+                        </div>
+                        {% for article in popular %}
+                        <div class="single-post">
+                            <div class="recent_img">
+                                 <a href="{% url 'post_detail' article.slug %}" title="" alt="{{ article.name }}"><img src="{{ article.image.url }}" alt="" class="img-fluid"></a>
+                            </div>
+                            <div class="post_title">
+                                <a href="{% url 'post_detail' article.slug %}" title=""  alt="{{ article.name }}">{{ article.name }}</a>
+
+                            </div>
+                        </div>
+                        {% endfor %}
+
+                    </div>
+
+                        <div class="recent_post_wrapper popular_courses_post widget_single">
+                        <div class="items-title">
+                            <h3 class="title">Our Popular Books.</h3>
+                        </div>
+                        {% for book in popular_books %}
+                        <div class="single-post">
+                            <div class="recent_img">
+                                 <a href="{% url 'book_detail' book.slug %}" title="" alt="{{ book.name }}"><img src="{{ book.image.url }}" alt="" class="img-fluid"></a>
+                            </div>
+                            <div class="post_title">
+                                <a href="{% url 'book_detail' book.slug %}" title=""  alt="{{ book.name }}">{{ book.name }}</a>
+
+                            </div>
+                        </div>
+                        {% endfor %}
+
+                    </div>
+
+                    <div class="get_discount widget_single">
+                        <div class="items-title">
+                            <img src="https://fauluhub-bucket.s3.amazonaws.com/advertisement.jpg" alt="advertise" class="img-fluid">
+                            <a href="{% url 'contact' %}" title="">CONTACT US</a>
+                        </div>
+
+                        <img src="{% static 'images/shapes/testimonial_2_shpe_2.png' %}" alt="" class="courses_feaures_shpe">
+
+                    </div>
+
+                    <div class="archives widget_single">
+                        <div class="items-title">
+
+
+                        </div>
+                        <div class="archives-items">
+                            <ul class="list-unstyled">
+
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- End Right Sidebar-->
+            
+        </div>
+    </div>
+</section><!-- ./ End  Blog Wrapper-->
+
+{% endblock body %}

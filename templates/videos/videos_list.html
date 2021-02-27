@@ -1,0 +1,119 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Faulu Hub Videos{% endblock title %}
+
+{% block body %}
+
+    <div class="intro_wrapper">
+        <div class="container">  
+            <div class="row">        
+                 <div class="col-sm-12 col-md-8 col-lg-8">
+                    <div class="intro_text">
+                        <h1 style="color:black">Videos List</h1>
+                
+                    </div>
+                </div>              
+
+                <div class="col-sm-12 col-md-12 col-lg-12">
+					<div class="search_wrapper">
+						<div class="search-option" >
+							<form action="{% url 'video_search_results' %}" method="get">
+
+								<div class="form-group d-flex">
+									<input name="q" placeholder="What do you want to learn today?" type="text" required="">
+								</div>
+								<div class="submit-btn">
+									<button type="submit" class="text-center">Search</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+
+            </div>
+        </div> 
+    </div> 
+</header> <!-- End Header -->
+
+
+
+
+<section class="latest_news_2" id="latest_news_style_2">
+    <div class="container">
+        <div class="row">
+            <h2>You can search anything that you want or filter from the form below<br>
+                <p style="color:red">USE ONLY ONE METHOD</p>
+            </h2>
+             <div class="container">
+                            <div class="row">
+                       <form action="{% url 'video_search_results' %}" method="get">
+                                            <div class="form-group">
+                        <label>Search</label>
+                        <input name="q" type="text" class="form-control" placeholder="Search..............">
+                     <button type="submit" class="btn btn-primary">Search</button>
+
+                      </div>
+                    </form>
+
+                        </div>
+                        </div>
+            <div class="container">
+            <div class="row">
+            <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+                <form action="{% url 'video_search_results' %}" method='get'>
+                {% csrf_token %}
+                <h2 style="color:green; font-size:16px">Select From The Choices the Form and Subject</h2>
+                {{ myfilter.form }}
+            <button type="submit" class="btn btn-primary">Search</button>
+                </form>
+
+                </div>
+               <br>
+                <div style="padding-top:3%;">
+
+
+                <div class="row">
+                <p style="color:red; font-size:25px">QUICK DISCLAIMER: <br>
+                        WE DON'T OWN ANY OF THE VIDEOS POSTED AND CREDITS SHOULD BE LEFT AS THE OWNERS LICENSE. </p>
+                      <span style="color:black; font-size:23px">  Our Teachers are working hard to upload videos in our channel <a href="https://www.youtube.com/channel/UCSlRNvyqSsrW-ugXE5V35Bg" target="_blank"><button type="submit" class="btn btn-success" >Subscribe Now!!!</button></a></span>
+           </div>
+                </div>
+            </div>
+            </div>            
+     
+          
+            
+        </div>
+    </div>
+</section>
+
+
+<section class="latest_news_2" id="latest_news_style_2">
+    <div class="container">
+        <div class="row">
+
+         {% for c in content  %}
+            <div class="col-12 col-sm-6 col-md-4 col-lg-4">
+                 <div class="single_item">
+                    <div class="item_wrapper">
+                        <div class="blog-img">
+                            <a href="{% url 'video_detail' c.slug %}" title=""><img src="{{ c.image.url }}" alt="faulu hub" class="img-fluid"></a>
+                        </div>
+                        <h3><a href="{% url 'video_detail' c.slug %}" title="">{{ c.name }}</a></h3>
+                    </div>
+                    <div class="blog_title">
+                        <ul class="post_bloger">
+                            <li><i class="fas fa-user"></i>{{ c.form }}</li> 
+                            <li><i class="fas fa-book"></i> {{ c.subject }}</li>
+                        </ul>               
+                    </div> 
+                </div>
+            </div>            
+        {% endfor %}
+          
+            
+        </div>
+    </div>
+</section><!-- End Our Blog -->
+
+{% endblock body %}
