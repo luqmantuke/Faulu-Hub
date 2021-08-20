@@ -12,7 +12,7 @@ DISCUSSION FORUM <br>
 CONTACT US SYSTEM <br>
 CLEAN UI<br>
 
-To run the project, headup to
+# To run the project, headup to
 # settings.py and edit 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'<br>
 DEFAULT_FROM_EMAIL = 'EMAIL HERE EXAMPLE luqman@gmail.com'<br>
